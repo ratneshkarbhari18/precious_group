@@ -10,40 +10,21 @@
 .top-nav-curved-link{
     margin-right: 3%;
 }
-header#desktop-header{
-    position: relative;
-    width: 100%;
-    padding: 1% 0;
-    height: 45vh;
-    border: 15px solid #008DD2;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
-    background-color: white;
-}
-section#home-header-desktop{
+/* section#home-header-desktop{
     position: relative;
     top: 25%;
     width: 100%;
     padding: 15% 0 5% 0;
     height: 40vh;
     z-index: -90;
-}
+} */
 h1#building-better-tommorow-title{
     margin-top: 5%;
 }
 section#map-section-desktop{
-    margin-top: 15%;
+    margin-top: 28%;
     min-height: 20%;
     max-height: 30%;
-    border-radius: 30%;
-    background-color: #DFE1EE;
-    PADDING: 5% 0;
-    border: 15px solid #008DD2;
-    border-left: none;
-    border-right: none;
 }
 .module-border-wrap {
      margin: 0 auto;

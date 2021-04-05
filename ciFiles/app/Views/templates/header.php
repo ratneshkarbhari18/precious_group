@@ -12,7 +12,7 @@
 <body>
     <script src="<?php echo site_url("assets/js/jquery.min.js"); ?>"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <header id="desktop-header" class="d-sm-none d-md-none d-lg-block d-xl-block">
+    <header id="desktop-header" class="d-sm-none d-md-none d-lg-block d-xl-block" style="background-image: url('<?php echo site_url("assets/images/bgs/nav.png") ?>'); background-position: bottom; background-size: 100% 100%;height: 60vh;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">

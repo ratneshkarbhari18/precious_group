@@ -1,14 +1,17 @@
 <main class="page-content d-sm-none d-md-none d-lg-block d-xl-block" id="home">
-    <section id="home-header-desktop">
-        <div class="container text-center">
-            <h1 id="building-better-tommorow-title">BUILDING BETTER TOMMOROW</h1>
-        </div>
-        <img src="<?php echo site_url("assets/images/home-page.jpg"); ?>" style="z-index: -5;
+    <section id="home-header-desktop" style="background-image: url(http://localhost/precious_group/assets/images/bgs/Home.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -5;
+    top: 15%;
     width: 100%;
-    top: -45%;
-    position: absolute;">
+    padding: 40% 0;">
+        <div class="container text-center">
+            <h1 id="building-better-tommorow-titlex" style="margin-top: -5%;">BUILDING BETTER TOMMOROW</h1>
+        </div>
     </section>
-    <section id="map-section-desktop">
+    <section id="map-section-desktop" style="background-image: url('<?php echo site_url("assets/images/bgs/map.png"); ?>'); background-size: 100% 100%; padding: 15% 0 15% 0;">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12">
@@ -25,7 +28,7 @@
             </div>
         </div>
     </section>
-    <section id="about-us-desktop">
+    <section id="about-us-desktop" style="padding: 0 0 5% 0">
         <div class="container text-center"> 
             <div class="module-border-wrap"><div class="btn-title">About us</div></div>
             <div class="row" style="margin: 3% 0;">
@@ -142,7 +145,7 @@
     background: linear-gradient(to right, #393185, #b2def3);
     padding: 15% 0 10% 0;
     z-index: -5;
-    top: 500%;
+    top: 517%;
     width: 100%;">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
