@@ -125,7 +125,8 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide testimonial-slide container-fluid" style="background-image: url(http://localhost/precious_group/assets/images/bgs/testimonial1.png);
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
+;background-image: url(http://localhost/precious_group/assets/images/bgs/testimonial1.png);
     background-size: 300%;
     width: 550px;
     margin-right: 10px;
@@ -135,7 +136,8 @@
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                     </div>
-                    <div class="swiper-slide testimonial-slide container-fluid" style="background-image: url(http://localhost/precious_group/assets/images/bgs/testimonial2.png);
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
+;background-image: url(http://localhost/precious_group/assets/images/bgs/testimonial2.png);
     background-size: 300%;
     width: 550px;
     margin-right: 10px;
