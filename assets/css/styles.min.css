@@ -1,0 +1,115 @@
+
+.top-icon{
+    width: 40px;
+    height: 40px;
+}
+.nav-list{
+    list-style: none;
+
+}
+.top-nav-curved-link{
+    margin-right: 3%;
+}
+header#desktop-header{
+    position: relative;
+    width: 100%;
+    padding: 1% 0;
+    height: 45vh;
+    border: 15px solid blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: white;
+}
+section#home-header-desktop{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    padding: 15% 0 5% 0;
+    height: 40vh;
+    z-index: -90;
+}
+h1#building-better-tommorow-title{
+    margin-top: 5%;
+}
+section#map-section-desktop{
+    margin-top: 15%;
+    min-height: 20%;
+    max-height: 30%;
+    border-radius: 50%;
+    background-color: #DFE1EE;
+    PADDING: 5% 0;
+    border: 15px solid blue;
+    border-left: none;
+    border-right: none;
+}
+.module-border-wrap {
+     margin: 0 auto;
+    max-width: 250px;
+    position: relative;
+    background: linear-gradient(to right, blue, green);
+    padding: 3px;
+  }
+  
+  .btn-title {
+      text-transform: uppercase;
+      text-align: center;
+    background: #fff;
+    color: blue;
+    font-weight: bold;
+    padding: 5%;
+  }
+
+  section#about-us-desktop,section#projects-desktop{
+      padding: 5% 0;
+  }
+  .project-grid-box{
+      height: 300px;
+      width: 300px;
+      text-align: center;
+  }
+  section#projects-desktop{
+    padding: 5% 0;
+    background-color: rgba(39, 39, 126, 0.452);
+  }
+  div.project-grid-meta{
+    padding-top: 50%;
+  }
+  h4.project-grid-title{
+    font-size: 25px;
+    color: #fff;
+  }
+  h6.project-grid-title{
+    font-size: 20px;
+    color: #fff;
+  }
+  p{
+    color:  blue;
+  }
+  .testimonial-image{
+      border-radius: 50%;
+      width: 90px !important;
+      height: 90px;
+      background-color: black;
+      position: absolute;
+      top: -50px;
+  }
+  .padding-5pc-top-bottom{
+      padding: 5% 0 5% 0;
+  }
+  .cardx{
+      border: 1px solid lightgray;
+      border-radius: 3%;
+  }
+  .testimonial-slide{
+      padding-top: 5%;
+  }
+  .testimonial-slide:hover{
+    background: linear-gradient(to right, blue, green);
+    color: #fff !important;
+  }
+  .testimonial-slide:hover p{
+      color: #fff;
+  }
