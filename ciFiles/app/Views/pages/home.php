@@ -8,7 +8,7 @@
     width: 100%;
     padding: 40% 0;">
         <div class="container text-center">
-            <h1 id="building-better-tommorow-titlex" style="margin-top: -10%; color: white;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW</span></h1>
+            <h1 id="building-better-tommorow-titlex" style="margin-top: -10%; color: white;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
         </div>
     </section>
     <section id="map-section-desktop" style="background-image: url('<?php echo site_url("assets/images/bgs/map.png"); ?>'); background-size: 100% 100%; padding: 15% 0 15% 0;">
@@ -224,28 +224,46 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide ia-slide container-fluid" style="border: 1px solid darkgray;">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_01.jpg"); ?>">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_01.jpg"); ?>'); background-size: cover; width: 200px; height: 200px; margin: 0 auto;">
+                        <div class="township-meta">
+                            <h4 class="text-light">TOWNSHIP</h4>
+                            <p>Ulve, Navi Mumbai</p>
+                            <p>2BHK, 1BHK</p>
+                        </div>
                     </div>
-                    <div class="swiper-slide ia-slide container-fluid" style="border: 1px solid darkgray;">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_02.jpg"); ?>">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_02.jpg"); ?>'); background-size: cover; width: 200px; height: 200px; margin: 0 auto;">
+                        <div class="township-meta">
+                            <h4 class="text-light">TOWNSHIP</h4>
+                            <p>Ulve, Navi Mumbai</p>
+                            <p>2BHK, 1BHK</p>
+                        </div>
                     </div>
-                    <div class="swiper-slide ia-slide container-fluid" style="border: 1px solid darkgray;">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_03.jpg"); ?>">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_03.jpg"); ?>'); background-size: cover; width: 200px; height: 200px; margin: 0 auto;">
+                        <div class="township-meta">
+                            <h4 class="text-light">TOWNSHIP</h4>
+                            <p>Ulve, Navi Mumbai</p>
+                            <p>2BHK, 1BHK</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <style>
-                .ia-slide{
-                    background-color: white;
-                    padding: 1%;
-                    border: none !important;
+                .township-meta{
+                    position: absolute;
+                    top: 30%;
+                    left: 28%;
+                }
+                .township-meta h4{
+                    color: white;
+                }
+                .township-meta p{
+                    color: white;
                 }
             </style>
             <script>
                 const swiperIA = new Swiper('#ia-slider', {
                     // Optional parameters
-                    spaceBetween: 0,
+                    spaceBetween: 10,
                     slidesPerView: 3,
                     direction: 'horizontal',
                     loop: true,
