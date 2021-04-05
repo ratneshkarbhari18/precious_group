@@ -19,8 +19,8 @@ header#desktop-header{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     background-color: white;
 }
 section#home-header-desktop{
@@ -38,7 +38,7 @@ section#map-section-desktop{
     margin-top: 15%;
     min-height: 20%;
     max-height: 30%;
-    border-radius: 50%;
+    border-radius: 30%;
     background-color: #DFE1EE;
     PADDING: 5% 0;
     border: 15px solid #008DD2;
@@ -69,6 +69,7 @@ section#map-section-desktop{
       height: 300px;
       width: 300px;
       text-align: center;
+      margin: 0 auto;
   }
   section#projects-desktop{
     padding: 5% 0;
@@ -114,6 +115,5 @@ section#map-section-desktop{
       color: #fff;
   } */
   footer#site-footer{
-    padding: 5% 0;
     background-color: #393185;
   }

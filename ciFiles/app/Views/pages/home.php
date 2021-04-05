@@ -48,7 +48,7 @@
             </div>
         </div>
     </section>
-    <section id="projects-desktop" style="background-image: url('<?php echo site_url("assets/images/projects_section_bg.jpg"); ?>');" class="text-center">
+    <section id="projects-desktop" style="background-image: url('<?php echo site_url("assets/images/Projects.png"); ?>'); background-size: 100% 100%; padding: 5% 0 12% 0;" class="text-center">
         <div class="container text-center">
             <div class="row" data-aos="zoom-in">
                 <div class="col-4">
@@ -81,7 +81,13 @@
             </a>
         </div>
     </section>
-    <section id="customers-speak-desktop" class="padding-5pc-top-bottom">
+    <section id="customers-speak-desktop" style="padding: 0 0 5% 0; border: 15px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color: white;">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">CUSTOMERS SPEAK</div></div>
@@ -132,7 +138,12 @@
             });
         </script>
     </section>
-    <section id="gallery-desktop" style="background-color: light#393185;" class="padding-5pc-top-bottom">
+    <section id="gallery-desktop" style="position: absolute;
+    background-color: #b2def3;
+    padding: 11% 0 10% 0;
+    z-index: -5;
+    top: 549%;
+    width: 100%;">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
             <div class="swiper-container" data-aos="zoom-in" id="gallery-slider">
@@ -176,7 +187,13 @@
             </script>
         </div>
     </section>
-    <section id="industry-affairs" style="background-image: url('<?php echo site_url("assets/images/Industry-affairs.jpg"); ?>'); background-size: cover; background-position: bottom;" class="padding-5pc-top-bottom">
+    <section id="industry-affairs" style="background-image: url(http://localhost/precious_group/assets/images/ia.png);
+    background-size: 100% 100%;
+    background-position: bottom;
+    padding: 15% 0 5% 0;
+    position: absolute;
+    width: 100%;
+    top: 648%;" >
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">INDUSTRY AFFAIRS</div></div>
             <div class="swiper-container" id="ia-slider">
