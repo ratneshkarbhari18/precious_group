@@ -142,7 +142,7 @@
     background: linear-gradient(to right, #c0c1de, #b2def3);
     padding: 15% 0 10% 0;
     z-index: -5;
-    top: 499%;
+    top: 537%;
     width: 100%;">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
@@ -193,7 +193,7 @@
     padding: 15% 0 5% 0;
     position: absolute;
     width: 100%;
-    top: 585%;" >
+    top: 632%;" >
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">INDUSTRY AFFAIRS</div></div>
             <div class="swiper-container" id="ia-slider">
