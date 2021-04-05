@@ -15,7 +15,7 @@ header#desktop-header{
     width: 100%;
     padding: 1% 0;
     height: 45vh;
-    border: 15px solid blue;
+    border: 15px solid #008DD2;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -41,7 +41,7 @@ section#map-section-desktop{
     border-radius: 50%;
     background-color: #DFE1EE;
     PADDING: 5% 0;
-    border: 15px solid blue;
+    border: 15px solid #008DD2;
     border-left: none;
     border-right: none;
 }
@@ -49,7 +49,7 @@ section#map-section-desktop{
      margin: 0 auto;
     max-width: 250px;
     position: relative;
-    background: linear-gradient(to right, blue, green);
+    background: linear-gradient(to right, #393185, green);
     padding: 3px;
   }
   
@@ -57,7 +57,7 @@ section#map-section-desktop{
       text-transform: uppercase;
       text-align: center;
     background: #fff;
-    color: blue;
+    color: #393185;
     font-weight: bold;
     padding: 5%;
   }
@@ -84,8 +84,8 @@ section#map-section-desktop{
     font-size: 20px;
     color: #fff;
   }
-  p{
-    color:  blue;
+  p,h4.testimonial-title{
+    color:  #393185;
   }
   .testimonial-image{
       border-radius: 50%;
@@ -94,6 +94,7 @@ section#map-section-desktop{
       background-color: black;
       position: absolute;
       top: -50px;
+      border: 7px solid #008DD2;
   }
   .padding-5pc-top-bottom{
       padding: 5% 0 5% 0;
@@ -106,13 +107,13 @@ section#map-section-desktop{
       padding-top: 5%;
   }
   .testimonial-slide:hover{
-    background: linear-gradient(to right, blue, green);
+    background: linear-gradient(to right, pink, #b5b0df);
     color: #fff !important;
   }
-  .testimonial-slide:hover p{
+  /* .testimonial-slide:hover p,.testimonial-slide:hover h4.testimonial-title{
       color: #fff;
-  }
+  } */
   footer#site-footer{
     padding: 5% 0;
-    background-color: blue;
+    background-color: #393185;
   }

@@ -15,7 +15,7 @@
                     
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <img src="<?php echo site_url("assets/images/map_nfacts.jpg"); ?>" style="margin-bottom: 5%;" class="w-50">
+                    <img data-aos="zoom-in" src="<?php echo site_url("assets/images/map_nfacts.jpg"); ?>" style="margin-bottom: 5%; width: 75%">
                      
                     <h6>Head Office: </h6>
                     <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
@@ -41,16 +41,16 @@
                 <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <img src="<?php echo site_url("assets/images/features.jpg"); ?>" class="w-100" style="margin-top: 5%;">
+                    <img data-aos="zoom-in" src="<?php echo site_url("assets/images/features_icon.png"); ?>" class="w-100" style="margin-top: 5%;">
                 </div>
-                <div class="col-lg-1 col-md-12 col-sm-12">
+                <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
             </div>
         </div>
     </section>
     <section id="projects-desktop" style="background-image: url('<?php echo site_url("assets/images/projects_section_bg.jpg"); ?>');" class="text-center">
         <div class="container text-center">
-            <div class="row" >
+            <div class="row" data-aos="zoom-in">
                 <div class="col-4">
                     <div class="project-grid-box" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
                         <div class="project-grid-meta">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn" style="background-color: white; border: 3px solid blue; color: blue; margin-top: 5%;">
+            <a href="#" class="btn" style="background-color: white; border: 3px solid #393185; color: #393185; margin-top: 5%;">
             VIEW ALL PROJECTS
             </a>
         </div>
@@ -89,29 +89,29 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 3px solid #008DD2;">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4>Testimonial Title</h4>
+                        <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                     </div>
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 3px solid #008DD2;">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4>Testimonial Title</h4>
+                        <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                     </div>
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 3px solid #008DD2;">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4>Testimonial Title</h4>
+                        <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                     </div>
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 3px solid #008DD2;">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4>Testimonial Title</h4>
+                        <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                     </div>
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 3px solid #008DD2;">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4>Testimonial Title</h4>
+                        <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                     </div>
 
@@ -132,10 +132,10 @@
             });
         </script>
     </section>
-    <section id="gallery-desktop" style="background-color: lightblue;" class="padding-5pc-top-bottom">
+    <section id="gallery-desktop" style="background-color: light#393185;" class="padding-5pc-top-bottom">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
-            <div class="swiper-container" id="gallery-slider">
+            <div class="swiper-container" data-aos="zoom-in" id="gallery-slider">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
