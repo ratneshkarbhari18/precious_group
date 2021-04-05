@@ -10,6 +10,10 @@
 .top-nav-curved-link{
     margin-right: 3%;
 }
+div.module-border-wrap:hover div.btn-title{
+  background: linear-gradient(to right, #393185, green);
+  color:white;
+}
 /* section#home-header-desktop{
     position: relative;
     top: 25%;
