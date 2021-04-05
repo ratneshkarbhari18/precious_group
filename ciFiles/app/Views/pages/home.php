@@ -48,7 +48,7 @@
             </div>
         </div>
     </section>
-    <section id="projects-desktop" class="text-center">
+    <section id="projects-desktop" style="background-image: url('<?php echo site_url("assets/images/projects_section_bg.jpg"); ?>');" class="text-center">
         <div class="container text-center">
             <div class="row" >
                 <div class="col-4">
@@ -167,7 +167,7 @@
                     loop: true,
                     autoplay: {
                         delay: 3000,
-                    },
+                    },  
                     pagination: {
                         el: '.swiper-pagination',
                         type: 'bullets',
@@ -176,34 +176,33 @@
             </script>
         </div>
     </section>
-    <section id="industry-affairs" style="background-color: lightblue;" class="padding-5pc-top-bottom">
+    <section id="industry-affairs" style="background-image: url('<?php echo site_url("assets/images/Industry-affairs.jpg"); ?>'); background-size: cover; background-position: bottom;" class="padding-5pc-top-bottom">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">INDUSTRY AFFAIRS</div></div>
-            <div class="swiper-container" id="gallery-slider">
+            <div class="swiper-container" id="ia-slider">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide gallery-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide ia-slide container-fluid" style="border: 1px solid darkgray;">
                         <img class="w-100" src="<?php echo site_url("assets/images/township_01.jpg"); ?>">
                     </div>
-                    <div class="swiper-slide gallery-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide ia-slide container-fluid" style="border: 1px solid darkgray;">
                         <img class="w-100" src="<?php echo site_url("assets/images/township_02.jpg"); ?>">
                     </div>
-                    <div class="swiper-slide gallery-slide container-fluid" style="border: 1px solid darkgray;">
+                    <div class="swiper-slide ia-slide container-fluid" style="border: 1px solid darkgray;">
                         <img class="w-100" src="<?php echo site_url("assets/images/township_03.jpg"); ?>">
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
             <style>
-                .gallery-slide{
+                .ia-slide{
                     background-color: white;
                     padding: 1%;
                     border: none !important;
                 }
             </style>
             <script>
-                const swiperGallery = new Swiper('#gallery-slider', {
+                const swiperIA = new Swiper('#ia-slider', {
                     // Optional parameters
                     spaceBetween: 0,
                     slidesPerView: 3,
@@ -211,10 +210,6 @@
                     loop: true,
                     autoplay: {
                         delay: 3000,
-                    },
-                    pagination: {
-                        el: '.swiper-pagination',
-                        type: 'bullets',
                     },
                 });
             </script>

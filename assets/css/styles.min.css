@@ -72,7 +72,6 @@ section#map-section-desktop{
   }
   section#projects-desktop{
     padding: 5% 0;
-    background-color: rgba(39, 39, 126, 0.452);
   }
   div.project-grid-meta{
     padding-top: 50%;
@@ -112,4 +111,8 @@ section#map-section-desktop{
   }
   .testimonial-slide:hover p{
       color: #fff;
+  }
+  footer#site-footer{
+    padding: 5% 0;
+    background-color: blue;
   }
