@@ -1,5 +1,5 @@
 <main class="page-content d-sm-none d-md-none d-lg-block d-xl-block" id="home">
-    <section id="home-header-desktop" style="background-image: url(http://localhost/precious_group/assets/images/bgs/Home.png);
+    <section id="home-header-desktop" data-aos="zoom-in"  style="background-image: url(http://localhost/precious_group/assets/images/bgs/Home.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -11,14 +11,14 @@
             <h1 id="building-better-tommorow-titlex" style="margin-top: -10%; color: white;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
         </div>
     </section>
-    <section id="map-section-desktop" style="background-image: url('<?php echo site_url("assets/images/bgs/map.png"); ?>'); background-size: 100% 100%; padding: 15% 0 15% 0;">
+    <section id="map-section-desktop" data-aos="zoom-in"  style="background-image: url('<?php echo site_url("assets/images/bgs/map.png"); ?>'); background-size: 100% 100%; padding: 15% 0 15% 0;">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12">
                     
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <img data-aos="zoom-in" src="<?php echo site_url("assets/images/map_nfacts.jpg"); ?>" style="margin-bottom: 5%; width: 80%">
+                    <img src="<?php echo site_url("assets/images/map_nfacts.jpg"); ?>" style="margin-bottom: 5%; width: 80%">
                      
                     <h4 style="color: #393185;">Head Office: </h4>
                     <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
@@ -28,7 +28,7 @@
             </div>
         </div>
     </section>
-    <section id="about-us-desktop" style="padding: 0 0 5% 0">
+    <section id="about-us-desktop" data-aos="zoom-in"  style="padding: 0 0 5% 0">
         <div class="container text-center"> 
             <div class="module-border-wrap"><div class="btn-title">About us</div></div>
             <div class="row" style="margin: 3% 0;">
@@ -44,16 +44,16 @@
                 <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <img data-aos="zoom-in" src="<?php echo site_url("assets/images/features_icon.png"); ?>" class="w-100" style="margin-top: 5%;">
+                    <img  src="<?php echo site_url("assets/images/features_icon.png"); ?>" class="w-100" style="margin-top: 5%;">
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
             </div>
         </div>
     </section>
-    <section id="projects-desktop" style="background-image: url('<?php echo site_url("assets/images/Projects.png"); ?>'); background-size: 100% 100%; padding: 5% 0 12% 0;" class="text-center">
+    <section id="projects-desktop" data-aos="zoom-in"  style="background-image: url('<?php echo site_url("assets/images/Projects.png"); ?>'); background-size: 100% 100%; padding: 5% 0 12% 0;" class="text-center">
         <div class="container text-center">
-            <div class="row" data-aos="zoom-in">
+            <div class="row">
                 <div class="col-4">
                     <div class="project-grid-box" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-1" class="project-grid-meta">
@@ -111,7 +111,7 @@
             </a>
         </div>
     </section>
-    <section id="customers-speak-desktop" style="padding: 0 0 5% 0; border: 15px solid #fff;
+    <section data-aos="zoom-in"  id="customers-speak-desktop" style="padding: 0 0 5% 0; border: 15px solid #fff;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -172,7 +172,7 @@
     width: 100%;">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
-            <div class="swiper-container" data-aos="zoom-in" id="gallery-slider">
+            <div class="swiper-container"  id="gallery-slider">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
@@ -213,7 +213,7 @@
             </script>
         </div>
     </section>
-    <section id="industry-affairs" style="background-image: url(http://localhost/precious_group/assets/images/ia.png);
+    <section id="industry-affairs" data-aos="zoom-in"  style="background-image: url(http://localhost/precious_group/assets/images/ia.png);
     background-size: 100% 100%;
     background-position: bottom;
     padding: 15% 0 10% 0;
