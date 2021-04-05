@@ -1,7 +1,7 @@
     <footer id="site-footer" style="padding: 13% 0 5% 0;
     position: absolute;
     width: 100%;
-    top: 691%;
+    top: 710%;
     z-index: -5;">
         <div class="container">
             <form action="#" class="row" method="post">

@@ -12,7 +12,7 @@
 <body>
     <script src="<?php echo site_url("assets/js/jquery.min.js"); ?>"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <header id="desktop-header" class="d-sm-none d-md-none d-lg-block d-xl-block" style="background-image: url('<?php echo site_url("assets/images/bgs/nav.png") ?>'); background-position: bottom; background-size: 100% 100%;height: 60vh;">
+    <header id="desktop-header" class="d-sm-none d-md-none d-lg-block d-xl-block" style="background-image: url('<?php echo site_url("assets/images/bgs/nav.png") ?>'); background-position: center; background-size: cover;height: 60vh;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -30,7 +30,7 @@
                     </nav>   
                 </div>
                 <div class="col-lg-6 text-center">
-                    <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/Precious_ logo.png"); ?>" style="width: 30%;"></a>
+                    <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/Precious_ logo.png"); ?>" style="width: 50%;"></a>
                     <div class="top-menu-items-container">
                         <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> <a href="<?php echo site_url("projects"); ?>" class="top-nav-curved-link">PROJECTS</a> <a href="<?php echo site_url("customer-speaks"); ?>" class="top-nav-curved-link">CUSTOMER SPEAK</a>  <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> <a href="<?php echo site_url("industry-affairs"); ?>" class="top-nav-curved-link">INDUSTRY AFFAIRS</a> <a href="<?php echo site_url("contact"); ?>" class="top-nav-curved-link">CONTACT US</a> 
 
