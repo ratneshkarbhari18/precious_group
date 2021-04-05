@@ -193,7 +193,7 @@
     padding: 15% 0 5% 0;
     position: absolute;
     width: 100%;
-    top: 632%;" >
+    top: 602%;" >
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">INDUSTRY AFFAIRS</div></div>
             <div class="swiper-container" id="ia-slider">
