@@ -139,7 +139,7 @@
         </script>
     </section>
     <section id="gallery-desktop" style="position: absolute;
-    background: linear-gradient(to right, #c0c1de, #b2def3);
+    background: linear-gradient(to right, #393185, #b2def3);
     padding: 15% 0 10% 0;
     z-index: -5;
     top: 500%;
