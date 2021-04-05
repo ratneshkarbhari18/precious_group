@@ -142,7 +142,7 @@
     background: linear-gradient(to right, #c0c1de, #b2def3);
     padding: 15% 0 10% 0;
     z-index: -5;
-    top: 537%;
+    top: 500%;
     width: 100%;">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
