@@ -140,9 +140,9 @@
     </section>
     <section id="gallery-desktop" style="position: absolute;
     background: linear-gradient(to right, #c0c1de, #b2def3);
-    padding: 11% 0 10% 0;
+    padding: 15% 0 10% 0;
     z-index: -5;
-    top: 549%;
+    top: 499%;
     width: 100%;">
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
@@ -193,7 +193,7 @@
     padding: 15% 0 5% 0;
     position: absolute;
     width: 100%;
-    top: 648%;" >
+    top: 585%;" >
         <div class="container"> 
             <div class="module-border-wrap"><div class="btn-title">INDUSTRY AFFAIRS</div></div>
             <div class="swiper-container" id="ia-slider">
