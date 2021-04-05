@@ -1,5 +1,5 @@
 <main class="page-content d-sm-none d-md-none d-lg-block d-xl-block" id="home">
-    <section id="home-header-desktop" data-aos="zoom-in"  style="background-image: url(http://localhost/precious_group/assets/images/bgs/Home.png);
+    <section id="home-header-desktop" data-aos="zoom-in"  style="background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/Home.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -126,7 +126,7 @@
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
                     <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
-;background-image: url(http://localhost/precious_group/assets/images/bgs/testimonial1.png);
+;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png);
     background-size: 300%;
     width: 550px;
     margin-right: 10px;
@@ -137,7 +137,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                     </div>
                     <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
-;background-image: url(http://localhost/precious_group/assets/images/bgs/testimonial2.png);
+;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
     background-size: 300%;
     width: 550px;
     margin-right: 10px;
@@ -213,7 +213,7 @@
             </script>
         </div>
     </section>
-    <section id="industry-affairs" data-aos="zoom-in"  style="background-image: url(http://localhost/precious_group/assets/images/ia.png);
+    <section id="industry-affairs" data-aos="zoom-in"  style="background-image: url(http://3.6.86.32/precious_group/assets/images/ia.png);
     background-size: 100% 100%;
     background-position: bottom;
     padding: 15% 0 10% 0;
