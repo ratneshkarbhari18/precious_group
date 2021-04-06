@@ -113,7 +113,7 @@
     </section>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-    <section data-aos="zoom-in"  id="customers-speak-desktop" style="padding: 0 0 5% 0; border: 15px solid #fff;
+    <section data-aos="zoom-in"  id="customers-speak-desktop" style="padding: 0 0 2% 0; border: 15px solid #fff;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -132,7 +132,7 @@
     right: 35%;">"</span>
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
+                <div class="swiper-wrapper" style="padding: 8% 0 2% 0;">
                     <!-- Slides -->
                     <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
 ;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png);
