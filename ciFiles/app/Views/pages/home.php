@@ -159,6 +159,7 @@
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -169,9 +170,13 @@
                 slidesPerView: 2,
                 direction: 'horizontal',
                 loop: true,
-                // autoplay: {
-                //     delay: 3000,
-                // },
+                autoplay: {
+                    delay: 3000,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
             });
         </script>
     </section>
