@@ -143,7 +143,7 @@
 }">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-size: 1.1rem; font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                     <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
@@ -155,7 +155,7 @@
 }">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-size: 1.1rem; font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                 </div>
