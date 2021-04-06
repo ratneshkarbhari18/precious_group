@@ -122,13 +122,13 @@
     background-color: white;">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
-        <span style="    font-size: 100px;
+        <span style="    font-size: 150px;
     position: absolute; color: #393185; font-family: sans-serif;
-    top: -10%;
-    left: 35%;">"</span><div class="module-border-wrap customer-speak-title"><div class="btn-title">CUSTOMERS SPEAK</div></div><span style="    font-size: 100px;
+    top: -20%;
+    left: 35%;">"</span><div class="module-border-wrap customer-speak-title"><div class="btn-title">CUSTOMERS SPEAK</div></div><span style="    font-size: 150px;
     position: absolute;
     font-family: sans-serif;
-    bottom: 60%; color: #008DD2;
+    bottom: 50%; color: #008DD2;
     right: 35%;">"</span>
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
@@ -191,7 +191,7 @@
                 $(this).css("background-image",altBg);
             }
         );
-    </script> 
+    </script>
     <section id="gallery-desktop" style="position: absolute;
     background: linear-gradient(to right, #393185, #b2def3);
     padding: 20% 0 10% 0;
