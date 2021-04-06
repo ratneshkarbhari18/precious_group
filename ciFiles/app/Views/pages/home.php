@@ -122,10 +122,10 @@
     background-color: white;">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
-        <span style="    font-size: 70px;
+        <span style="    font-size: 100px;
     position: absolute; color: #393185; font-family: sans-serif;
     top: -10%;
-    left: 35%;">"</span><div class="module-border-wrap customer-speak-title"><div class="btn-title">CUSTOMERS SPEAK</div></div><span style="    font-size: 70px;
+    left: 35%;">"</span><div class="module-border-wrap customer-speak-title"><div class="btn-title">CUSTOMERS SPEAK</div></div><span style="    font-size: 100px;
     position: absolute;
     font-family: sans-serif;
     bottom: 73%; color: #008DD2;
