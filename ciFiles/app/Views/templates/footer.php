@@ -54,7 +54,7 @@
                     <div class="text-right text-light">&copy; Precious Group. All Rights Reserved.</div>
                 </div>
                 <div style="padding: 0; margin:0;" class="col-1">
-                    <img src="<?php echo site_url("assets/images/Precious_ logo_2.png"); ?>" style="width: 80%;">
+                    <img src="<?php echo site_url("assets/images/Precious_ logo_2.png"); ?>" style="width: 100%;">
                 </div>
             </div>
         </div>

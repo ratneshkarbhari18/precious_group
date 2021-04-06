@@ -117,8 +117,8 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
     background-color: white;">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
@@ -132,10 +132,10 @@
     right: 35%;">"</span>
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper" style="padding: 8% 0 2% 0;">
+                <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
-;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png);
+                    <div alt-bg="http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png" class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
+;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
     background-size: 300%;
     width: 550px;
     margin-right: 10px;
@@ -146,7 +146,7 @@
                         <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
+                    <div alt-bg="http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png" class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
 ;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
     background-size: 300%;
     width: 550px;
@@ -180,6 +180,18 @@
             });
         </script>
     </section>
+    <script>
+        $(".testimonial-slide").hover(function () {
+                let altBg = $(this).attr("alt-bg");
+                $(this).attr("alt-bg","http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png")
+                $(this).css("background-image",altBg);
+            }, function () {
+                let altBg = $(this).attr("alt-bg");
+                $(this).attr("alt-bg","http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png")
+                $(this).css("background-image",altBg);
+            }
+        );
+    </script> 
     <section id="gallery-desktop" style="position: absolute;
     background: linear-gradient(to right, #393185, #b2def3);
     padding: 20% 0 10% 0;
@@ -229,6 +241,7 @@
             </script>
         </div>
     </section>
+    
     <section id="industry-affairs" data-aos="zoom-in"  style="background-image: url(http://3.6.86.32/precious_group/assets/images/ia.png);
     background-size: 100% 100%;
     background-position: bottom;
