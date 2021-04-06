@@ -144,7 +144,7 @@
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
-                        <p><span style="font-size: 1.1rem; font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
+                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                     <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
 ;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
@@ -156,7 +156,7 @@
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
-                        <p><span style="font-size: 1.1rem; font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
+                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                 </div>
             </div>
