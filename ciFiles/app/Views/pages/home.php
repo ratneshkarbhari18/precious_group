@@ -128,7 +128,7 @@
     left: 35%;">"</span><div class="module-border-wrap customer-speak-title"><div class="btn-title">CUSTOMERS SPEAK</div></div><span style="    font-size: 100px;
     position: absolute;
     font-family: sans-serif;
-    bottom: 73%; color: #008DD2;
+    bottom: 60%; color: #008DD2;
     right: 35%;">"</span>
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
