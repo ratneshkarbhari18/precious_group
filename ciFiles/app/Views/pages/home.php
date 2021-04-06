@@ -130,11 +130,11 @@
     font-family: sans-serif;
     bottom: 50%; color: #008DD2;
     right: 35%;">"</span>
-            <div class="swiper-container">
+            <div id="testimonial-slider" class="swiper-container">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div alt-bg="http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png" class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
 ;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
     background-size: 300%;
     width: 550px;
@@ -146,7 +146,7 @@
                         <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
-                    <div alt-bg="http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png" class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
+                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
 ;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
     background-size: 300%;
     width: 550px;
@@ -180,18 +180,7 @@
             });
         </script>
     </section>
-    <script>
-        $(".testimonial-slide").hover(function () {
-                let altBg = $(this).attr("alt-bg");
-                $(this).attr("alt-bg","http://3.6.86.32/precious_group/assets/images/bgs/testimonial1.png")
-                $(this).css("background-image",altBg);
-            }, function () {
-                let altBg = $(this).attr("alt-bg");
-                $(this).attr("alt-bg","http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png")
-                $(this).css("background-image",altBg);
-            }
-        );
-    </script>
+    
     <section id="gallery-desktop" style="position: absolute;
     background: linear-gradient(to right, #393185, #b2def3);
     padding: 20% 0 10% 0;
