@@ -73,6 +73,10 @@ section#map-section-desktop{
   p,h4.testimonial-title{
     color:  #393185;
   }
+  h4.testimonial-title
+  {
+  font-weight: bold;
+}
   .testimonial-image{
       border-radius: 50%;
       width: 90px !important;

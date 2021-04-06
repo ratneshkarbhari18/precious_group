@@ -111,6 +111,8 @@
             </a>
         </div>
     </section>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
     <section data-aos="zoom-in"  id="customers-speak-desktop" style="padding: 0 0 5% 0; border: 15px solid #fff;
     border-top: none;
     border-left: none;
@@ -120,7 +122,14 @@
     background-color: white;">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
-            <div class="module-border-wrap"><div class="btn-title">CUSTOMERS SPEAK</div></div>
+        <span style="    font-size: 70px;
+    position: absolute; color: #393185; font-family: sans-serif;
+    top: -10%;
+    left: 35%;">"</span><div class="module-border-wrap customer-speak-title"><div class="btn-title">CUSTOMERS SPEAK</div></div><span style="    font-size: 70px;
+    position: absolute;
+    font-family: sans-serif;
+    bottom: 73%; color: #008DD2;
+    right: 35%;">"</span>
             <div class="swiper-container">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
@@ -135,6 +144,7 @@
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p><span style="font-size: 1.1rem; font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                     <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
 ;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
@@ -146,6 +156,7 @@
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p><span style="font-size: 1.1rem; font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                 </div>
             </div>
