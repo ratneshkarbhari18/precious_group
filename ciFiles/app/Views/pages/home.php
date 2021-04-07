@@ -179,7 +179,10 @@
     </section>
     <section id="gallery-desktop">
         <div class="container"> 
-            <div class="title-button-outer">
+            <div class="title-button-outer" style="position: absolute;
+    left: 39%;
+    z-index: 151;
+    top: 29%;">
                 <div class="title-button">
                     <div class="section-title">GALLERY</div>
                 </div>
@@ -214,7 +217,7 @@
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
             <style>
                 .gallery-slide{
-                    background-color: white;
+                    background-color: transparent;
                     padding: 1%;
                     border: none !important;
                 }
@@ -236,6 +239,7 @@
                 });
             </script>
         </div>
+        <div style="background-image: url('<?php echo site_url("assets/images/gallery_bg.png"); ?>'); background-size: cover; height: 30%; width: 100%; z-index: 150; background-position: center; position: absolute; padding: 20% 0; top: 8%;" ></div>
     </section>
     <section id="industry-affairs-desktop" data-aos="zoom-in">
         <div class="container"> 

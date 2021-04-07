@@ -40,7 +40,7 @@ footer#desktop{
   padding: 13% 0 5% 0;
   position: absolute;
   width: 100%;
-  top: 825%;
+  top: 845%;
   z-index: -5; background-color: #393185;
 }
 section#map-section-desktop{
@@ -180,14 +180,14 @@ section#gallery-desktop{
 }
 
 section#industry-affairs-desktop{
-background-image: url(http://3.6.86.32/precious_group/assets/images/ia.png);
-    background-size: 100% 100%;
-    background-position: bottom;
-    padding: 20% 0 10% 0;
-    position: absolute;
-    width: 100%;
-    top: 685%;
-  }
+  background-image: url('../images/ia.png');
+  background-size: 100% 100%;
+  background-position: bottom;
+  padding: 20% 0 10% 0;
+  position: absolute;
+  width: 100%;
+  top: 705%;
+}
 
   /* Media Queries */
 
