@@ -1,17 +1,10 @@
-<main class="page-content d-sm-none d-md-none d-lg-block d-xl-block" id="home">
-    <section id="home-header-desktop" data-aos="zoom-in"  style="background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/Home.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    z-index: -5;
-    top: 15%;
-    width: 100%;
-    padding: 40% 0;">
+<main class="page-content" id="home">
+    <section id="home-header" class="usual-section-desktop">
         <div class="container text-center">
             <h1 id="building-better-tommorow-titlex" style="margin-top: -10%; color: white;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
         </div>
     </section>
-    <section id="map-section-desktop" data-aos="zoom-in"  style="background-image: url('<?php echo site_url("assets/images/bgs/map.png"); ?>'); background-size: 100% 100%; padding: 15% 0 15% 0;">
+    <section id="map-section-desktop" data-aos="zoom-in">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12">
@@ -28,9 +21,13 @@
             </div>
         </div>
     </section>
-    <section id="about-us-desktop" data-aos="zoom-in"  style="padding: 0 0 5% 0">
+    <section id="about-us-desktop" data-aos="zoom-in">
         <div class="container text-center"> 
-            <div class="module-border-wrap"><div class="btn-title">About us</div></div>
+            <div class="title-button-outer">
+                <div class="title-button">
+                    <div class="section-title">ABOUT US</div>
+                </div>
+            </div>
             <div class="row" style="margin: 3% 0;">
                 <div class="col-lg-2 col-md-12 col-sm-12">
                     
@@ -51,10 +48,10 @@
             </div>
         </div>
     </section>
-    <section id="projects-desktop" data-aos="zoom-in"  style="background-image: url('<?php echo site_url("assets/images/Projects.png"); ?>'); background-size: 100% 100%; padding: 5% 0 12% 0;" class="text-center">
+    <section id="projects-desktop" data-aos="zoom-in" class="text-center">
         <div class="container text-center">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="project-grid-box" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-1" class="project-grid-meta">
                             <h4 class="project-grid-title">Precious Heritage</h4>
@@ -65,7 +62,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="project-grid-box" pid="2" style="background-image: url('<?php echo site_url("assets/images/projects_02.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-2" class="project-grid-meta">
                             <h4 class="project-grid-title">Precious Heritage</h4>
@@ -76,7 +73,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="project-grid-box" pid="3" style="background-image: url('<?php echo site_url("assets/images/projects_03.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-3" class="project-grid-meta">
                             <h4 class="project-grid-title">Precious Heritage</h4>
@@ -111,48 +108,25 @@
             </a>
         </div>
     </section>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-    <section data-aos="zoom-in"  id="customers-speak-desktop" style="padding: 0 0 2% 0; border: 15px solid #fff;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    background-color: white;">
+    <section data-aos="zoom-in"  id="customers-speak-desktop" >
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
-        <span style="    font-size: 150px;
-    position: absolute; color: #393185; font-family: sans-serif;
-    top: -20%;
-    left: 35%;">"</span><div class="module-border-wrap customer-speak-title"><div class="btn-title">CUSTOMERS SPEAK</div></div><span style="    font-size: 150px;
-    position: absolute;
-    font-family: sans-serif;
-    bottom: 50%; color: #008DD2;
-    right: 35%;">"</span>
+            <div class="title-button-outer">
+                <div class="title-button">
+                    <div class="section-title">CUSTOMERS SPEAK</div>
+                </div>
+            </div>
             <div id="testimonial-slider" class="swiper-container">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
-;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
-    background-size: 300%;
-    width: 550px;
-    margin-right: 10px;
-    background-position: center;
-}">
+                    <div class="swiper-slide testimonial-slide container-fluid">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
-                    <div class="swiper-slide testimonial-slide container-fluid" style="border: 2px solid #008DD2
-;background-image: url(http://3.6.86.32/precious_group/assets/images/bgs/testimonial2.png);
-    background-size: 300%;
-    width: 550px;
-    margin-right: 10px;
-    background-position: center;
-}">
+                    <div class="swiper-slide testimonial-slide container-fluid">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
@@ -180,31 +154,41 @@
             });
         </script>
     </section>
-    
-    <section id="gallery-desktop" style="position: absolute;
-    background: linear-gradient(to right, #393185, #b2def3);
-    padding: 20% 0 10% 0;
-    z-index: -5;
-    top: 517%;
-    width: 100%;">
+    <section id="gallery-desktop">
         <div class="container"> 
-            <div class="module-border-wrap"><div class="btn-title">GALLERY</div></div>
-            <div class="swiper-container"  id="gallery-slider">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
-                    <!-- Slides -->
-                    <div class="swiper-slide gallery-slide container-fluid" style="border: 1px solid darkgray;">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_01.jpg"); ?>">
-                    </div>
-                    <div class="swiper-slide gallery-slide container-fluid" style="border: 1px solid darkgray;">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_02.jpg"); ?>">
-                    </div>
-                    <div class="swiper-slide gallery-slide container-fluid" style="border: 1px solid darkgray;">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_03.jpg"); ?>">
-                    </div>
+            <div class="title-button-outer">
+                <div class="title-button">
+                    <div class="section-title text-light">GALLERY</div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
+            <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" id="gallery-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper" style="padding: 8% 0px 5%; transition-duration: 300ms; transform: translate3d(-1480px, 0px, 0px);" id="swiper-wrapper-facb6b4b1001fee105" aria-live="off"><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="1 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_01.jpg">
+                    </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-active" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="1" role="group" aria-label="2 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_02.jpg">
+                    </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-next" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="2" role="group" aria-label="3 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_03.jpg">
+                    </div>
+                    <!-- Slides -->
+                    <div class="swiper-slide gallery-slide container-fluid swiper-slide-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="4 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_01.jpg">
+                    </div>
+                    <div class="swiper-slide gallery-slide container-fluid swiper-slide-active" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="1" role="group" aria-label="5 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_02.jpg">
+                    </div>
+                    <div class="swiper-slide gallery-slide container-fluid swiper-slide-next" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="2" role="group" aria-label="6 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_03.jpg">
+                    </div>
+                <div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="7 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_01.jpg">
+                    </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-active" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="1" role="group" aria-label="8 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_02.jpg">
+                    </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-next" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="2" role="group" aria-label="9 / 9">
+                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_03.jpg">
+                    </div></div>
+                <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
             <style>
                 .gallery-slide{
                     background-color: white;
@@ -230,16 +214,13 @@
             </script>
         </div>
     </section>
-    
-    <section id="industry-affairs" data-aos="zoom-in"  style="background-image: url(http://3.6.86.32/precious_group/assets/images/ia.png);
-    background-size: 100% 100%;
-    background-position: bottom;
-    padding: 15% 0 10% 0;
-    position: absolute;
-    width: 100%;
-    top: 612%;" >
+    <section id="industry-affairs-desktop" data-aos="zoom-in">
         <div class="container"> 
-            <div class="module-border-wrap"><div class="btn-title">INDUSTRY AFFAIRS</div></div>
+            <div class="title-button-outer">
+                <div class="title-button">
+                    <div class="section-title text-light">INDUSTRY AFFAIRS</div>
+                </div>
+            </div>
             <div class="swiper-container" id="ia-slider">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">

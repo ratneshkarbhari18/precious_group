@@ -1,8 +1,4 @@
-    <footer id="site-footer" style="padding: 13% 0 5% 0;
-    position: absolute;
-    width: 100%;
-    top: 710%;
-    z-index: -5;">
+<footer id="desktop" >
         <div class="container">
             <form action="#" class="row" method="post">
                 <div class="col-lg-3 d-grid gap-2">
@@ -59,8 +55,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="<?php echo site_url("assets/js/bootstrap.min.js"); ?>"></script>
-    <script src="<?php echo site_url("assets/js/scripts.min.js"); ?>"></script>
+    <script src="<?php echo site_url("assets/js/site.min.js"); ?>"></script>
 </body>
 </html>
