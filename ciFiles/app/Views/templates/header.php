@@ -21,9 +21,7 @@
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/whatsapp.png"); ?>" class="top-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <img class="top-icon" src="<?php echo site_url("assets/images/mail_icon_2.svg"); ?>">
-                                </a>
+                                <a href="#" class="nav-link"><img id="social-icon-3" alt-img-src="<?php echo site_url("assets/images/mail_gold.svg"); ?>" src="<?php echo site_url("assets/images/mail_blue.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                         </ul>
                     </nav>   
@@ -39,16 +37,16 @@
                     <nav class="navbar navbar-expand-lg">
                         <ul id="left-nav-top-desktop" class="nav-list navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/twitter_icon_grey.svg"); ?>" class="top-icon"></a>
+                                <a href="#" class="nav-link"><img id="social-icon-1" alt-img-src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" src="<?php echo site_url("assets/images/icon_blue-01.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/fb_icon_grey.svg"); ?>" class="top-icon"></a>
+                                <a href="#" class="nav-link"><img id="social-icon-2" alt-img-src="<?php echo site_url("assets/images/icon_gold_02.svg"); ?>" src="<?php echo site_url("assets/images/icon_blue-02.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/insta_icon_grey.svg"); ?>" class="top-icon"></a>
+                                <a href="#" class="nav-link"><img id="social-icon-3" alt-img-src="<?php echo site_url("assets/images/icon_gold_03.svg"); ?>" src="<?php echo site_url("assets/images/icon_blue-03.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/pintrest_icon_grey.svg"); ?>" class="top-icon"></a>
+                                <a href="#" class="nav-link"><img id="social-icon-4" alt-img-src="<?php echo site_url("assets/images/icon_gold_04.svg"); ?>" src="<?php echo site_url("assets/images/icon_blue-04.svg"); ?>" class="top-icon color-changer-icon"></a>
                             </li>
                         </ul>
                     </nav>
