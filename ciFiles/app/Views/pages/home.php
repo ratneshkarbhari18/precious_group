@@ -1,20 +1,31 @@
 <main class="page-content" id="home">
     <section id="home-header" class="usual-section-desktop">
         <div class="container text-center">
-            <h1 id="building-better-tommorow-titlex" style="margin-top: -10%; color: white;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
+            <h1 id="building-better-tommorow-titlex" style="color: white; font-size: 50px;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
         </div>
     </section>
-    <section id="map-section-desktop" data-aos="zoom-in">
+    <section id="map-section-desktop">
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-2 col-md-12 col-sm-12">
                     
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <img src="<?php echo site_url("assets/images/map_nfacts.jpg"); ?>" style="margin-bottom: 5%; width: 80%">
-                     
-                    <h4 style="color: #393185;">Head Office: </h4>
-                    <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img class="w-100" src="<?php echo site_url("assets/images/map_new.png"); ?>"  style="margin-bottom: 5%; margin-right: -40%;" data-aos-duration="1000" data-aos="fade-right">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="w-50" style="margin-left: -40%;" data-aos-duration="1000" data-aos="fade-left" src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div id="address" data-aos-duration="1000" data-aos="fade-left">
+                        <h4 style="color: #393185;">Head Office: </h4>
+                        <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
@@ -22,7 +33,7 @@
         </div>
     </section>
     <section id="about-us-desktop" data-aos="zoom-in">
-        <div class="container text-center"> 
+        <div class="container text-left"> 
             <div class="title-button-outer">
                 <div class="title-button">
                     <div class="section-title">ABOUT US</div>
@@ -33,15 +44,27 @@
                     
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nam laudantium blanditiis animi excepturi? Consequatur quidem nulla dignissimos qui in veritatis eaque rerum perspiciatis aliquam hic, tempora sit quod architecto.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nam laudantium blanditiis animi excepturi? Consequatur quidem nulla dignissimos qui in veritatis eaque rerum perspiciatis aliquam hic, tempora sit quod architecto.</p>
+                    <div data-aos-duration="2000" data-aos="fade-right" id="about-text">
+                        <p>We at precious group actively seek growth by combining dual ethos of integrity and aesthetics in building better tomorrow.</p>
+                        <p>Home is the biggest investment of your lifetime; we understand; and hence we strive to contribute our best in fulfilling your dreams. We are committed to always meeting our possession times with your satisfaction in mind, and we will always do everything possible to ensure that your home is ready on or before the promised delivery time.</p>
+                        <p>
+                        Our mission is to provide prompt and hassle free services for a complete customer satisfaction for which we always carry a value for money approach.</p>
+                        <p>
+                        To achieve our goals and fulfill your demands, we have skilled workforce under the direct supervision of a highly progressive management. Our Experts are always happy to help you at various stages in selection of locations per your need.
+                        </p>
+                        <p>Our commitment to quality & innovation is earning us the enduring trust of our customers and making us the renowned brand. 
+                        </p>
+                        <p>We take the pleasure to have 1213+ extended families onboard through our journey within 5,000,00 sq.ft of developed land. 
+                        </p>
+                        <p>We pledge to continue this mission of world-class development and to enrich living styles across all spectrum of society.</p>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <img  src="<?php echo site_url("assets/images/features_icon.png"); ?>" class="w-100" style="margin-top: 5%;">
+                    <img data-aos-duration="2000" data-aos="fade-left" src="<?php echo site_url("assets/images/icon.svg"); ?>" class="w-100" style="margin-top: 5%;">
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
                 </div>
@@ -52,9 +75,9 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="project-grid-box" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-right" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-1" class="project-grid-meta">
-                            <h4 class="project-grid-title">Precious Heritage</h4>
+                            <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
                         <a href="#" id="vp-button-1" class="btn view-project-button" style="background-color: blue; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 28%; padding: 1%;">
@@ -63,9 +86,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="project-grid-box" pid="2" style="background-image: url('<?php echo site_url("assets/images/projects_02.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-up" pid="2" style="background-image: url('<?php echo site_url("assets/images/projects_02.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-2" class="project-grid-meta">
-                            <h4 class="project-grid-title">Precious Heritage</h4>
+                            <h4 class="project-grid-title">Precious Emerald</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
                         <a href="#" id="vp-button-2" class="btn view-project-button" style="background-color: blue; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 28%; padding: 1%;">
@@ -74,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="project-grid-box" pid="3" style="background-image: url('<?php echo site_url("assets/images/projects_03.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box" pid="3" data-aos-duration="1000" data-aos="fade-left" style="background-image: url('<?php echo site_url("assets/images/projects_03.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-3" class="project-grid-meta">
                             <h4 class="project-grid-title">Precious Heritage</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
@@ -113,7 +136,7 @@
         <div class="container"> 
             <div class="title-button-outer">
                 <div class="title-button">
-                    <div class="section-title">CUSTOMERS SPEAK</div>
+                    <div class="section-title">CUSTOMER SPEAK</div>
                 </div>
             </div>
             <div id="testimonial-slider" class="swiper-container">
@@ -123,13 +146,13 @@
                     <div class="swiper-slide testimonial-slide container-fluid">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
-                        <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                     <div class="swiper-slide testimonial-slide container-fluid">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
-                        <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
                 </div>
@@ -158,7 +181,7 @@
         <div class="container"> 
             <div class="title-button-outer">
                 <div class="title-button">
-                    <div class="section-title text-light">GALLERY</div>
+                    <div class="section-title">GALLERY</div>
                 </div>
             </div>
             <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" id="gallery-slider">
@@ -225,21 +248,21 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_01.jpg"); ?>'); background-size: cover; width: 200px; height: 200px; margin: 0 auto;">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_01.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
                             <h4 class="text-light">TOWNSHIP</h4>
                             <p>Ulve, Navi Mumbai</p>
                             <p>2BHK, 1BHK</p>
                         </div>
                     </div>
-                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_02.jpg"); ?>'); background-size: cover; width: 200px; height: 200px; margin: 0 auto;">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_02.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
                             <h4 class="text-light">TOWNSHIP</h4>
                             <p>Ulve, Navi Mumbai</p>
                             <p>2BHK, 1BHK</p>
                         </div>
                     </div>
-                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_03.jpg"); ?>'); background-size: cover; width: 200px; height: 200px; margin: 0 auto;">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_03.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <div class="township-meta">
                             <h4 class="text-light">TOWNSHIP</h4>
                             <p>Ulve, Navi Mumbai</p>
