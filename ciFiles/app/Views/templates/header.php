@@ -61,19 +61,19 @@
                     <ul class="navbar-nav ml-auto mr-auto">
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link section-nav-link" section-id="about-us-desktop" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PROJECTS</a>
+                            <a class="nav-link section-nav-link" section-id="projects-desktop" href="#">PROJECTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CUSTOMER SPEAKS</a>
+                            <a class="nav-link section-nav-link" section-id="customers-speak-desktop" href="#">CUSTOMER SPEAKS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GALLERY</a>
+                            <a class="nav-link section-nav-link" section-id="gallery-desktop" href="#">GALLERY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">INDUSTRY AFFAIRS</a>
+                            <a class="nav-link section-nav-link" section-id="industy-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
                         </li>
                         
                         
@@ -81,6 +81,14 @@
                 </div>
             </nav>
         </div>
+        <script>
+            $("a.section-nav-link").click(function() {
+                let targetSectionId = $(this).attr("section-id");
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $("section#"+targetSectionId).offset().top
+                }, 1000);
+            });
+        </script>
     </header>
     <header id="touch">
         <div class="container-fluid">
