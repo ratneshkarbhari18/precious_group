@@ -53,7 +53,7 @@ section#home-header div.container{
     padding: 25vw 0;
 }
 footer#desktop{
-  padding: 13% 0 5% 0;
+  padding: 18% 0 5% 0;
   position: absolute;
   width: 100%;
   z-index: -5; background-color: #393185;
@@ -141,6 +141,18 @@ section#about-us-desktop{
     border: 3px solid #008DD2 !important;
     border-radius: 10px;
   }
+
+
+div#desktop-section-nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100000;
+  background-color: white;
+  display: none;
+}
 
   section#projects-desktop{
     z-index: 5;

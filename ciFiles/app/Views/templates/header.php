@@ -29,7 +29,7 @@
                 <div class="col-lg-6 text-center">
                     <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/logo.svg"); ?>" style="width: 25%; margin-bottom: 5%;"></a>
                     <div class="top-menu-items-container">
-                        <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> <a href="<?php echo site_url("projects"); ?>" class="top-nav-curved-link">PROJECTS</a> <a href="<?php echo site_url("customer-speaks"); ?>" class="top-nav-curved-link">CUSTOMER SPEAK</a>  <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> <a href="<?php echo site_url("industry-affairs"); ?>" class="top-nav-curved-link">INDUSTRY AFFAIRS</a> <a href="<?php echo site_url("contact"); ?>" class="top-nav-curved-link">CONTACT US</a> 
+                        <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> <a href="<?php echo site_url("projects"); ?>" class="top-nav-curved-link">PROJECTS</a> <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> <a href="<?php echo site_url("industry-affairs"); ?>" class="top-nav-curved-link">INDUSTRY AFFAIRS</a> <a href="<?php echo site_url("contact"); ?>" class="top-nav-curved-link">CONTACT US</a> 
 
                     </div>
                 </div>
@@ -54,7 +54,32 @@
             </div>
         </div>
         <div class="container-fluid" id="desktop-section-nav">
-            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CUSTOMER SPEAKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INDUSTRY AFFAIRS</a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <header id="touch">
