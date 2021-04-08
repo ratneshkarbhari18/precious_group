@@ -23,7 +23,7 @@ header#desktop{
   background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3C!-- Creator: CorelDRAW X7 --%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='162.56mm' height='52.8038mm' version='1.1' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd' viewBox='0 0 16256 5280' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cstyle type='text/css'%3E%3C![CDATA[ .fil1 {fill:white} .fil0 {fill:url(%23id0)} ]]%3E%3C/style%3E%3ClinearGradient id='id0' gradientUnits='userSpaceOnUse' x1='15915.3' y1='3252.42' x2='340.7' y2='2027.96'%3E%3Cstop offset='0' style='stop-opacity:1; stop-color:%23393185'/%3E%3Cstop offset='1' style='stop-opacity:1; stop-color:%23008DD2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='Layer_x0020_1'%3E%3Cmetadata id='CorelCorpID_0Corel-Layer'/%3E%3Cpath class='fil0' d='M16256 0l-16256 0 0 3157c1466,1257 4554,2123 8128,2123 3574,0 6662,-866 8128,-2123l0 -3157z'/%3E%3Cpath class='fil1' d='M0 0l16256 0 0 3149c-1674,1083 -4688,1805 -8128,1805 -3440,0 -6454,-722 -8128,-1805l0 -3149z'/%3E%3C/g%3E%3C/svg%3E");
   background-size: cover;
   background-position: bottom;
-  padding-bottom: 3%;
+  padding-bottom: 4%;
   background-repeat: no-repeat;
 }
 
