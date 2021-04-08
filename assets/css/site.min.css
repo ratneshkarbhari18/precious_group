@@ -88,12 +88,28 @@ section#about-us-desktop{
     background-position: right bottom;
     transition: all .5s ease-out;
   }
+  @keyframes titleButtonAnim {
+    0%   { background-position: right bottom; }
+    50%   { background-position: left bottom;}
+    100%   { background-position: right bottom;}
+  }
   
-  .title-button:hover {
+  .title-button{
+    background-position: right bottom;
+    animation: titleButtonAnim 15s linear infinite;
+  }
+  /* .title-button:hover {
     background-position: left bottom;
+  } */
+
+  @keyframes sectionTitleAnim {
+    0%   { color: #393185; }
+    50%   { color: #ffffff;}
+    100%   { color: #393185;}
   }
 
-  .title-button:hover  .section-title{
+  .section-title{
+    animation: sectionTitleAnim 15s linear infinite;
     color: #fff;
   }
   
