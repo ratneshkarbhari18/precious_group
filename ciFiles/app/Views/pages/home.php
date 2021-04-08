@@ -299,4 +299,10 @@
             </script>
         </div>
     </section>
+    <style>
+        footer#desktop{
+
+        top: 815%;
+        }
+    </style>
 </main>
