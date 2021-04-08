@@ -73,7 +73,7 @@
                             <a class="nav-link section-nav-link" section-id="gallery-desktop" href="#">GALLERY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link section-nav-link" section-id="industy-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
+                            <a class="nav-link section-nav-link" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
                         </li>
                         
                         

@@ -44,7 +44,7 @@ section#home-header{
   position: absolute;
   width: 100%;
   top: 0;
-  animation: breath 15s linear infinite;
+  animation: breath 5s linear infinite;
 }
 section#home-header div.container{
     padding: 10% 0;
@@ -96,7 +96,7 @@ section#about-us-desktop{
   
   .title-button{
     background-position: right bottom;
-    animation: titleButtonAnim 15s linear infinite;
+    animation: titleButtonAnim 5s linear infinite;
   }
   /* .title-button:hover {
     background-position: left bottom;
@@ -109,7 +109,7 @@ section#about-us-desktop{
   }
 
   .section-title{
-    animation: sectionTitleAnim 15s linear infinite;
+    animation: sectionTitleAnim 5s linear infinite;
     color: #fff;
   }
   
