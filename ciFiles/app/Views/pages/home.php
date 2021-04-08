@@ -155,6 +155,30 @@
                         <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
                     </div>
+                    <div class="swiper-slide testimonial-slide container-fluid">
+                        <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
+                        <h4 class="testimonial-title">Testimonial Title</h4>
+                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
+                    </div>
+                    <div class="swiper-slide testimonial-slide container-fluid">
+                        <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
+                        <h4 class="testimonial-title">Testimonial Title</h4>
+                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
+                    </div>
+                    <div class="swiper-slide testimonial-slide container-fluid">
+                        <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
+                        <h4 class="testimonial-title">Testimonial Title</h4>
+                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
+                    </div>
+                    <div class="swiper-slide testimonial-slide container-fluid">
+                        <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
+                        <h4 class="testimonial-title">Testimonial Title</h4>
+                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
+                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
