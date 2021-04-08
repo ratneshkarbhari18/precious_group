@@ -204,7 +204,7 @@
     <section id="gallery-desktop">
         <div class="container"> 
             <div class="title-button-outer" style="position: absolute; left: 39%; z-index: 151; top: 29%;">
-                <div class="title-button">
+                <div class="title-button" style="padding: 5% 0 13% 0;">
                     <div class="section-title">GALLERY</div>
                 </div>
             </div>
