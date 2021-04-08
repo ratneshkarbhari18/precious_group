@@ -16,14 +16,14 @@
             </form>
             <a href="#" style="border-radius: 30px; margin-top: 2%;"  class="btn btn-outline-primary text-light">QUICK LINKS</a><br>
             <div class="row" style="margin: 3% 0;">
-                <div class="text-center col-4">
+                <div class="test-left col-4" style="padding-left: 0;">
                     <p style=" margin-bottom:0; margin-top: 2%; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/call_gold_new.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">022 2650 6597</p>
                 </div>
-                <div class="text-center col-5">
+                <div class="test-left col-5">
                     <p style=" margin-bottom:0; margin-top: 2%; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/mail_new_gold.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">info@preciousgroup.com</p>
                 </div>
-                <div class="text-center col-3">
-                <nav class="navbar navbar-expand-lg">
+                <div class="test-left col-3" style="padding-right: 0;">
+                <nav class="navbar navbar-expand-lg" style="padding-right: 0;">
                         <ul id="left-nav-top-desktop" class="nav-list navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" class="top-icon"></a>
