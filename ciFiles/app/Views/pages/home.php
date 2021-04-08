@@ -260,7 +260,7 @@
                 });
             </script>
         </div>
-        <div style="background-image: url('<?php echo site_url("assets/images/gallery_bg.png"); ?>'); background-size: cover; height: 30%; width: 100%; z-index: 150; background-position: center; position: absolute; padding: 20% 0; top: -3vw;" ></div>
+        <div id="gallery-fg" style="height: 30%;width: 100%;z-index: 150;background-position: center;position: absolute;padding: 20% 0;top: 8vw;background-repeat: no-repeat;background-size: contain;" ></div>
     </section>
     <section id="industry-affairs-desktop" data-aos="zoom-in">
         <div class="container"> 
