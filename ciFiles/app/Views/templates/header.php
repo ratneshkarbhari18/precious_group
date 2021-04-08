@@ -53,27 +53,27 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="desktop-section-nav">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid" id="desktop-section-nav" style="background-color: #393185;"> 
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185;">
     
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto mr-auto">
                         
                         <li class="nav-item">
-                            <a class="nav-link section-nav-link" section-id="about-us-desktop" href="#">ABOUT US</a>
+                            <a class="nav-link section-nav-link text-light" section-id="about-us-desktop" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link section-nav-link" section-id="projects-desktop" href="#">PROJECTS</a>
+                            <a class="nav-link section-nav-link text-light" section-id="projects-desktop" href="#">PROJECTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link section-nav-link" section-id="customers-speak-desktop" href="#">CUSTOMER SPEAKS</a>
+                            <a class="nav-link section-nav-link text-light" section-id="customers-speak-desktop" href="#">CUSTOMER SPEAKS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link section-nav-link" section-id="gallery-desktop" href="#">GALLERY</a>
+                            <a class="nav-link section-nav-link text-light" section-id="gallery-desktop" href="#">GALLERY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link section-nav-link" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
+                            <a class="nav-link section-nav-link text-light" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
                         </li>
                         
                         

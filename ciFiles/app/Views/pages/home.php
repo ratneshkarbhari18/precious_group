@@ -131,10 +131,10 @@
             </a>
         </div>
     </section>
-    <section data-aos="zoom-in"  id="customers-speak-desktop" >
+    <section  id="customers-speak-desktop" >
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
-            <div class="title-button-outer">
+            <div class="title-button-outer" style="position: absolute; left: 42%; z-index: 151; top: 19%;">
                 <div class="title-button">
                     <div class="section-title">CUSTOMER SPEAK</div>
                 </div>
@@ -203,8 +203,8 @@
     </section>
     <section id="gallery-desktop">
         <div class="container"> 
-            <div class="title-button-outer" style="position: absolute; left: 39%; z-index: 151; top: 29%;">
-                <div class="title-button" style="padding: 5% 0 13% 0;">
+            <div class="title-button-outer" style="position: absolute; left: 45%; z-index: 151; top: 20%;">             
+            <div class="title-button" style="padding: 5% 0 13% 0;">
                     <div class="section-title">GALLERY</div>
                 </div>
             </div>
@@ -260,7 +260,7 @@
                 });
             </script>
         </div>
-        <div style="background-image: url('<?php echo site_url("assets/images/gallery_bg.png"); ?>'); background-size: cover; height: 30%; width: 100%; z-index: 150; background-position: center; position: absolute; padding: 20% 0; top: 8%;" ></div>
+        <div style="background-image: url('<?php echo site_url("assets/images/gallery_bg.png"); ?>'); background-size: cover; height: 30%; width: 100%; z-index: 150; background-position: center; position: absolute; padding: 20% 0; top: -3vw;" ></div>
     </section>
     <section id="industry-affairs-desktop" data-aos="zoom-in">
         <div class="container"> 
@@ -325,8 +325,7 @@
     </section>
     <style>
         footer#desktop{
-
-        top: 815%;
+            top: 325rem;
         }
     </style>
 </main>

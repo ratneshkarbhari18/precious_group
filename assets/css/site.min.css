@@ -26,7 +26,7 @@ header#desktop{
   background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3C!-- Creator: CorelDRAW X7 --%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='162.56mm' height='52.8038mm' version='1.1' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd' viewBox='0 0 16256 5280' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cstyle type='text/css'%3E%3C![CDATA[ .fil1 {fill:white} .fil0 {fill:url(%23id0)} ]]%3E%3C/style%3E%3ClinearGradient id='id0' gradientUnits='userSpaceOnUse' x1='15915.3' y1='3252.42' x2='340.7' y2='2027.96'%3E%3Cstop offset='0' style='stop-opacity:1; stop-color:%23393185'/%3E%3Cstop offset='1' style='stop-opacity:1; stop-color:%23008DD2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='Layer_x0020_1'%3E%3Cmetadata id='CorelCorpID_0Corel-Layer'/%3E%3Cpath class='fil0' d='M16256 0l-16256 0 0 3157c1466,1257 4554,2123 8128,2123 3574,0 6662,-866 8128,-2123l0 -3157z'/%3E%3Cpath class='fil1' d='M0 0l16256 0 0 3149c-1674,1083 -4688,1805 -8128,1805 -3440,0 -6454,-722 -8128,-1805l0 -3149z'/%3E%3C/g%3E%3C/svg%3E");
   background-size: cover;
   background-position: bottom;
-  padding-bottom: 5vw;
+  padding-bottom: 5rem;
   background-repeat: no-repeat;
 }
 
@@ -35,7 +35,8 @@ header#desktop{
   25% { background-size: 125% auto; }
   40% { background-size: 140% auto; }
   50% { background-size: 150% auto; }
-  100% { background-size: 100% auto; }
+  75% { background-size: 175% auto; }
+  100% { background-size: 200% auto; }
 }
 
 
@@ -47,13 +48,13 @@ section#home-header{
   position: absolute;
   width: 100%;
   top: 0;
-  animation: breath 5s linear infinite;
+  animation: breath 25s linear infinite;
 }
 section#home-header div.container{
     padding: 10% 0;
 }
 .usual-section-desktop{
-    padding: 25vw 0;
+    padding: 25rem 0;
 }
 
 footer#desktop{
@@ -68,12 +69,12 @@ section#map-section-desktop{
     padding: 15% 0 15% 0;
     position: absolute;
     width: 100%;
-    top: 110%;
+    top: 60rem;
 }
 section#about-us-desktop{
     position: absolute;
     width: 100%;
-    top: 118vw;
+    top: 118rem;
     padding-bottom: 5%;
 }
 .outer {
@@ -165,7 +166,7 @@ div#desktop-section-nav{
     padding: 5% 0 12% 0;
     position: absolute;
     width: 100%;
-    top: 170vw;
+    top: 180rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -177,8 +178,8 @@ div#desktop-section-nav{
     border: 15px solid #fff;
     background-color: white;
     width: 100%;
-    top: 505%;
-    z-index: -55%;
+    top: 210rem;
+    z-index: 5;
   }
   p,h4.testimonial-title{
     color:  #393185;
@@ -222,17 +223,17 @@ section#gallery-desktop{
   background-size: cover;
   padding: 10% 0;
   z-index: 5;
-  top: 600%;
+  top: 246rem;
   width: 100%;
 }
 section#industry-affairs-desktop{
-  background-image: url('../images/ia.png');
-  background-size: 100% 100%;
-  background-position: bottom;
-  padding: 32% 0 10% 0;
-  position: absolute;
-  width: 100%;
-  top: 675%;
+  background-image: url(../images/ia.png);
+    background-size: 100% 100%;
+    background-position: bottom;
+    padding: 32% 0 10% 0;
+    position: absolute;
+    width: 100%;
+    top: 274rem;
 }
 
   /* Media Queries */
