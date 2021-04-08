@@ -20,11 +20,19 @@ a:hover{
   font-weight: 900;
 }
 header#desktop{
-  background-image: url(../images/bgs/nav.png);
+  background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3C!-- Creator: CorelDRAW X7 --%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='162.56mm' height='52.8038mm' version='1.1' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd' viewBox='0 0 16256 5280' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cstyle type='text/css'%3E%3C![CDATA[ .fil1 {fill:white} .fil0 {fill:url(%23id0)} ]]%3E%3C/style%3E%3ClinearGradient id='id0' gradientUnits='userSpaceOnUse' x1='15915.3' y1='3252.42' x2='340.7' y2='2027.96'%3E%3Cstop offset='0' style='stop-opacity:1; stop-color:%23393185'/%3E%3Cstop offset='1' style='stop-opacity:1; stop-color:%23008DD2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='Layer_x0020_1'%3E%3Cmetadata id='CorelCorpID_0Corel-Layer'/%3E%3Cpath class='fil0' d='M16256 0l-16256 0 0 3157c1466,1257 4554,2123 8128,2123 3574,0 6662,-866 8128,-2123l0 -3157z'/%3E%3Cpath class='fil1' d='M0 0l16256 0 0 3149c-1674,1083 -4688,1805 -8128,1805 -3440,0 -6454,-722 -8128,-1805l0 -3149z'/%3E%3C/g%3E%3C/svg%3E");
   background-size: cover;
   background-position: bottom;
-  padding-bottom: 30%;
+  padding-bottom: 3%;
   background-repeat: no-repeat;
+}
+
+@keyframes breath {
+  0%   { background-size: 100% auto; }
+  25% { background-size: 125% auto; }
+  40% { background-size: 140% auto; }
+  50% { background-size: 150% auto; }
+  100% { background-size: 100% auto; }
 }
 
 
@@ -36,6 +44,7 @@ section#home-header{
   position: absolute;
   width: 100%;
   top: 0;
+  animation: breath 15s linear infinite;
 }
 section#home-header div.container{
     padding: 10% 0;
@@ -55,7 +64,7 @@ section#map-section-desktop{
     padding: 15% 0 15% 0;
     position: absolute;
     width: 100%;
-    top: 115%;
+    top: 110%;
 }
 section#about-us-desktop{
     position: absolute;
@@ -176,9 +185,9 @@ section#about-us-desktop{
 }
 section#gallery-desktop{
   position: absolute;
-  background-image: url('../images/bgs/gallery_backgrnd.png');
+  background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3C!-- Creator: CorelDRAW X7 --%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='162.56mm' height='54.6922mm' version='1.1' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd' viewBox='0 0 16256 5469' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cstyle type='text/css'%3E%3C![CDATA[ .fil0 {fill:url(%23id0)} ]]%3E%3C/style%3E%3ClinearGradient id='id0' gradientUnits='userSpaceOnUse' x1='14955.5' y1='2734.61' x2='1300.48' y2='2734.61'%3E%3Cstop offset='0' style='stop-opacity:1; stop-color:%23B2DEF3'/%3E%3Cstop offset='0.431373' style='stop-opacity:1; stop-color:%23B9D0E9'/%3E%3Cstop offset='1' style='stop-opacity:1; stop-color:%23C0C1DE'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg id='Layer_x0020_1'%3E%3Cmetadata id='CorelCorpID_0Corel-Layer'/%3E%3Cpath class='fil0' d='M16256 0l0 3985c-1868,902 -4814,1484 -8128,1484 -3314,0 -6260,-582 -8128,-1484l0 -3985c1868,902 4814,1485 8128,1485 3314,0 6260,-583 8128,-1485z'/%3E%3C/g%3E%3C/svg%3E");
   background-position: bottom;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 10% 0;
   z-index: 5;
   top: 600%;
