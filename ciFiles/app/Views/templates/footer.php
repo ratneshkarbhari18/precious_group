@@ -17,10 +17,10 @@
             <a href="#" style="border-radius: 30px; border"  class="btn btn-outline-primary text-light">QUICK LINKS</a><br>
             <div class="row">
                 <div class="text-center col-4">
-                    <p style="margin: 5% 0; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/call_icon.png"); ?>" style="width: 30px; height: 30px;">022 2650 6597</p>
+                    <p style="margin: 5% 0; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/call_gold_new.png"); ?>" style="width: 30px; height: 30px;">022 2650 6597</p>
                 </div>
                 <div class="text-center col-5">
-                    <p style="margin: 5% 0; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/mail_gold.svg"); ?>" style="width: 30px; height: 30px;">info@preciousgroup.com</p>
+                    <p style="margin: 5% 0; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/mail_new_gold.svg"); ?>" style="width: 30px; height: 30px;">info@preciousgroup.com</p>
                 </div>
                 <div class="text-center col-3">
                 <nav class="navbar navbar-expand-lg">
@@ -29,10 +29,10 @@
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" class="top-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_02.svg"); ?>" class="top-icon"></a>
+                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/insta_gold.svg"); ?>" class="top-icon"></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_03.svg"); ?>" class="top-icon"></a>
+                                <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/twitter_gold.svg"); ?>" class="top-icon"></a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_04.svg"); ?>" class="top-icon"></a>
