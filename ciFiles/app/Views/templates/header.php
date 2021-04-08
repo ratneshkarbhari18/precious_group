@@ -12,7 +12,7 @@
     <script src="<?php echo site_url("assets/js/jquery.min.js"); ?>"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <header id="desktop" class="d-none">
-        <div class="container-fluid">
+        <div class="container-fluid" id="desktop-navbar">
             <div class="row">
                 <div class="col-lg-3">
                     <nav class="navbar navbar-expand-lg">
@@ -52,6 +52,9 @@
                     </nav>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid" id="desktop-section-nav">
+            
         </div>
     </header>
     <header id="touch">

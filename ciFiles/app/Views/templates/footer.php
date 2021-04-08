@@ -42,10 +42,10 @@
                 </div>
             </div>
             <div class="row">
-                <div style="padding: 0; margin:0;" class="col-2">
+                <div  class="col-3">
                     <a class="btn d-block btn-primary w-100" >EMI CALCULATOR</a>
                 </div>
-                <div style="padding: 0; margin:0;" class="col-10">
+                <div  class="col-9">
                     <hr style="background-color: white;">
                     <div class="text-right text-light">&copy; Precious Group. All Rights Reserved.</div>
                 </div>
