@@ -110,6 +110,7 @@ section#map-section-desktop{
     position: absolute;
     width: 100%;
     top: 60rem;
+    background-position: center;
 }
 section#customers-speak-desktop {
   position: absolute;
@@ -123,8 +124,8 @@ section#customers-speak-desktop {
 section#about-us-desktop{
     position: absolute;
     width: 100%;
-    top: 150rem;
-    margin: -18rem 0 5rem 0;
+    top: 123rem;
+  
 }
 .outer {
     margin: 50px;
