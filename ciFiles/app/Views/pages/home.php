@@ -1,23 +1,4 @@
-<main class="page-content" id="home">
-    <div id="quick-actions-box">
-        <ul id="qa-list">
-            <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
-            </a></li>
-            <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
-            </a></li>
-            <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
-            </a></li>
-            <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
-            </a></li>
-            <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
-            </a></li>
-        </ul>
-    </div>
+<main class="page-content" id="home-desktop" class="d-none d-lg-block d-xl-block">
     <section id="home-header" class="usual-section-desktop">
         <div class="container text-center">
             <h1 id="building-better-tommorow-titlex" style="color: white; font-size: 50px;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
@@ -348,4 +329,7 @@
             top: 307em;
         }
     </style>
+</main>
+<main class="page-content" id="home-touch" class="d-sm-block d-md-block d-lg-none">
+    
 </main>

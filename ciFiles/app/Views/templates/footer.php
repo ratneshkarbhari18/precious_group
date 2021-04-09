@@ -1,4 +1,4 @@
-<footer id="desktop" >
+    <footer id="desktop" >
         <div class="container">
             <form action="#" class="row" method="post">
                 <div class="col-lg-3 d-grid gap-2">
@@ -53,6 +53,25 @@
             </div>
         </div>
     </footer>
+    <div id="quick-actions-box">
+        <ul id="qa-list">
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+        </ul>
+    </div>
     <script src="<?php echo site_url("assets/js/waypoint.js"); ?>"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="<?php echo site_url("assets/js/bootstrap.min.js"); ?>"></script>

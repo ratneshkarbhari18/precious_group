@@ -13,7 +13,7 @@
     <script src="<?php echo site_url("assets/js/jquery.min.js"); ?>"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <header id="desktop" class="d-none">
-        <div class="container-fluid" id="desktop-navbar">
+        <div class="container-fluid" id="desktop-navbar" >
             <div class="row">
                 <div class="col-lg-3">
                     <nav class="navbar navbar-expand-lg">
@@ -30,8 +30,7 @@
                 <div class="col-lg-6 text-center">
                     <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/logo.svg"); ?>" style="width: 25%; margin-bottom: 5%;"></a>
                     <div class="top-menu-items-container">
-                        <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> <a href="<?php echo site_url("projects"); ?>" class="top-nav-curved-link">PROJECTS</a> <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> <a href="<?php echo site_url("industry-affairs"); ?>" class="top-nav-curved-link">INDUSTRY AFFAIRS</a> <a href="<?php echo site_url("contact"); ?>" class="top-nav-curved-link">CONTACT US</a> 
-
+                        <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> <a href="<?php echo site_url("projects"); ?>" class="top-nav-curved-link">PROJECTS</a> <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> 
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -54,8 +53,8 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="desktop-section-nav" style="background-color: #393185;"> 
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185;">
+        <div class="container-fluid" id="desktop-section-nav" style="background-color: #393185;border-bottom: 5px solid white;"> 
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185; padding: 2% 0;">
     
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -76,7 +75,9 @@
                         <li class="nav-item">
                             <a class="nav-link section-nav-link text-light" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link section-nav-link text-light" section-id="industry-affairs-desktop" href="#">CONTACT</a>
+                        </li>
                         
                     </ul>
                 </div>
