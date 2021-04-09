@@ -157,11 +157,7 @@ section#about-us-desktop{
     background-position: left bottom;
   } */
 
-  @keyframes sectionTitleAnim {
-    0%   { color: #393185; }
-    50%   { color: #ffffff;}
-    100%   { color: #393185;}
-  }
+  
 
   .section-title{
     animation: sectionTitleAnim 5s linear infinite;
