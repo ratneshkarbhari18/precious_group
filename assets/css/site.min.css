@@ -99,7 +99,7 @@ section#home-header div.container{
 }
 
 footer#desktop{
-  padding: 22% 0 5% 0;
+  padding: 50% 0 5% 0;
   position: absolute;
   width: 100%;
   z-index: -5; background-color: #393185;
@@ -124,7 +124,7 @@ section#customers-speak-desktop {
 section#about-us-desktop{
     position: absolute;
     width: 100%;
-    top: 123rem;
+    top: 133rem;
   
 }
 .outer {
