@@ -34,12 +34,12 @@ a:hover{
   font-weight: 900;
 }
 div.top-menu-items-container{
-  margin-bottom: 2%;
+  margin-bottom: 4rem;
 }
 header#desktop{
   background-size: cover;
   background-position: bottom;
-  padding-bottom: 3rem;
+  padding-bottom: 3em;
   background-repeat: no-repeat;
 }
 
@@ -55,7 +55,7 @@ header#desktop{
 div#quick-actions-box{
   background-color: white;
   border: 1px solid darkgray;
-  width: 3rem;
+  width: 3em;
   position: fixed;
   right: 0;
   top: 15%;
@@ -95,7 +95,7 @@ section#home-header div.container{
     padding: 10% 0;
 }
 .usual-section-desktop{
-    padding: 25rem 0;
+    padding: 25em 0;
 }
 
 footer#desktop{
@@ -109,7 +109,7 @@ section#map-section-desktop{
     padding: 15% 0;
     position: absolute;
     width: 100%;
-    top: 60rem;
+    top: 60em;
     background-position: center;
 }
 section#customers-speak-desktop {
@@ -118,13 +118,13 @@ section#customers-speak-desktop {
     border: 15px solid #fff;
     background-color: white;
     width: 100%;
-    top: 210rem;
+    top: 218em;
     z-index: 5;
 }
 section#about-us-desktop{
     position: absolute;
     width: 100%;
-    top: 133rem;
+    top: 132em;
   
 }
 .outer {
@@ -202,7 +202,7 @@ section#projects-desktop
 padding: 5% 0 12% 0;
 position: absolute;
 width: 100%;
-top: 185rem;
+top: 185em;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -215,7 +215,7 @@ section#gallery-desktop
   background-size: cover;
   padding: 18% 0;
   z-index: 5;
-  top: 235rem;
+  top: 243em;
   width: 100%;
 }
 
@@ -237,8 +237,14 @@ section#industry-affairs-desktop{
   padding: 28% 0 22% 0;
   position: absolute;
   width: 100%;
-  top: 268rem;
+  top: 277em;
 }
+
+
+section{
+  position: relative;
+}
+
 
   /* Media Queries */
 
