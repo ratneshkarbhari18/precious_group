@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="desktop-section-nav" style="background-color: #393185;border-bottom: 5px solid white;"> 
+        <div class="container" id="desktop-section-nav" style="background-color: transparent;"> 
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185; padding: 2% 0;">
     
 
