@@ -56,19 +56,19 @@
     <div id="quick-actions-box">
         <ul id="qa-list">
             <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
             <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
             <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
             <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
             <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
         </ul>
     </div>
