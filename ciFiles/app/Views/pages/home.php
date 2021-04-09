@@ -345,7 +345,7 @@
     </section>
     <style>
         footer#desktop{
-            top: 324rem;
+            top: 330rem;
         }
     </style>
 </main>

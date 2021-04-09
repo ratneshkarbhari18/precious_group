@@ -105,8 +105,8 @@ footer#desktop{
   z-index: -5; background-color: #393185;
 }
 section#map-section-desktop{
-    background-size: 100% 100%;
-    padding: 10rem 0 6rem 0;
+    background-size: cover;
+    padding: 15% 0;
     position: absolute;
     width: 100%;
     top: 60rem;
@@ -123,7 +123,7 @@ section#customers-speak-desktop {
 section#about-us-desktop{
     position: absolute;
     width: 100%;
-    top: 131rem;
+    top: 150rem;
     margin: -18rem 0 5rem 0;
 }
 .outer {
@@ -198,11 +198,10 @@ section#about-us-desktop{
 
 section#projects-desktop
 {
-background-size: 100% 100%;
 padding: 5% 0 12% 0;
 position: absolute;
 width: 100%;
-top: 172rem;
+top: 185rem;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -211,12 +210,12 @@ background-size: cover;
 
 section#gallery-desktop
 {
-background-position: bottom;
-background-size: cover;
-padding: 10% 0;
-z-index: 5;
-top: 243rem;
-width: 100%;
+  background-position: bottom;
+  background-size: cover;
+  padding: 18% 0;
+  z-index: 5;
+  top: 235rem;
+  width: 100%;
 }
 
 div#desktop-section-nav{
@@ -231,14 +230,13 @@ div#desktop-section-nav{
 }
 
 section#industry-affairs-desktop{
-    z-index: 5;
-
-    background-size: 100% 100%;
-    background-position: bottom;
-    padding: 28% 0 22% 0;
-    position: absolute;
-    width: 100%;
-    top: 270rem;
+  z-index: 5;
+  background-size: 100% 100%;
+  background-position: bottom;
+  padding: 28% 0 22% 0;
+  position: absolute;
+  width: 100%;
+  top: 268rem;
 }
 
   /* Media Queries */
