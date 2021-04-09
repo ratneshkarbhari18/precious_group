@@ -240,6 +240,9 @@ section#industry-affairs-desktop{
   top: 277em;
 }
 
+section#about-us-desktop div.container{
+  margin-top: -5rem;
+}
 
 section{
   position: relative;

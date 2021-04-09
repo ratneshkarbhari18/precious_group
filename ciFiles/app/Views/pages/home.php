@@ -52,7 +52,7 @@
         </div>
     </section>
     <section id="about-us-desktop" data-aos="zoom-in">
-        <div class="container text-left"> 
+        <div class="container text-left" > 
             <div class="title-button-outer">
                 <div class="title-button" id="about-us-desktop-title">
                     <div class="section-title">ABOUT US</div>
