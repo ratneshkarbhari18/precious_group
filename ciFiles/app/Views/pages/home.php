@@ -1,4 +1,23 @@
 <main class="page-content" id="home">
+    <div id="quick-actions-box">
+        <ul id="qa-list">
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+            <li class="qa-box-list-item"><a href="#">
+                <img src="<?php echo site_url("assets/images/telephone.svg"); ?>" class="bouncing-icon" alt="" srcset="">
+            </a></li>
+        </ul>
+    </div>
     <section id="home-header" class="usual-section-desktop">
         <div class="container text-center">
             <h1 id="building-better-tommorow-titlex" style="color: white; font-size: 50px;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
@@ -134,7 +153,7 @@
     <section  id="customers-speak-desktop" >
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
-            <div class="title-button-outer" style="position: absolute; left: 42%; z-index: 151; top: 19%;">
+            <div class="title-button-outer">
                 <div class="title-button">
                     <div class="section-title">CUSTOMER SPEAK</div>
                 </div>
@@ -203,11 +222,11 @@
     </section>
     <section id="gallery-desktop">
         <div class="container"> 
-            <div class="title-button-outer" style="position: absolute; left: 45%; z-index: 151; top: 20%;">             
+            <div class="title-button-outer" style="position: absolute; left: 40vw; z-index: 151; top: 20%;">             
             <div class="title-button" style="padding: 5% 0 13% 0;">
                     <div class="section-title">GALLERY</div>
                 </div>
-            </div>
+            </div> 
             <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" id="gallery-slider">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0px 5%; transition-duration: 300ms; transform: translate3d(-1480px, 0px, 0px);" id="swiper-wrapper-facb6b4b1001fee105" aria-live="off"><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="1 / 9">
@@ -260,7 +279,8 @@
                 });
             </script>
         </div>
-        <div id="gallery-fg" style="height: 30%;width: 100%;z-index: 150;background-position: center;position: absolute;padding: 20% 0;top: 8vw;background-repeat: no-repeat;background-size: contain;" ></div>
+        <!-- <div id="gallery-fg" style="height: 30%;width: 100%;z-index: 150;background-position: center;position: absolute;padding: 20% 0;top: 8vw;background-repeat: no-repeat;background-size: cover;" ></div> -->
+        <!-- <img src="<?php echo site_url("assets/images/gallery_fg_curve.svg"); ?>" class="w-100"> -->
     </section>
     <section id="industry-affairs-desktop" data-aos="zoom-in">
         <div class="container"> 
