@@ -151,7 +151,7 @@ section#about-us-desktop{
   
   .title-button{
     background-position: right bottom;
-    animation: titleButtonAnim 5s linear infinite;
+    /* animation: titleButtonAnim 5s linear infinite; */
   }
   /* .title-button:hover {
     background-position: left bottom;

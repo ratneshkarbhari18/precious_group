@@ -72,7 +72,7 @@
             </a></li>
         </ul>
     </div>
-    <script src="<?php echo site_url("assets/js/waypoint.js"); ?>"></script>
+    <script src="<?php echo site_url("assets/js/inview.min.js"); ?>"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="<?php echo site_url("assets/js/bootstrap.min.js"); ?>"></script>
     <script src="<?php echo site_url("assets/js/site.min.js"); ?>"></script>
