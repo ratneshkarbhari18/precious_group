@@ -125,6 +125,60 @@
         </div>
         
     </section>
+    <section id="upcoming" class="usual-projects-page-section">
+        <div class="container">
+            <div class="title-button-outer">
+                <div class="title-button">
+                    <div class="section-title">LOAN CALCULATOR</div>
+                </div>
+            </div>
+            <style>
+            
+            </style>
+            <div id="emi-calculator-box" class="container-fluid card">
+                <div class="row card-body">
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <ul id="variables-list" style="list-style: none; padding-left: 0;">
+                            <li class="container-fluid variable-list-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5 class="variable">AMOUNT</h5>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <input type="range" class="form-control-range" id="loanAmount">
+                                        <p class="variable-value-wrapper">₹ <span id="variable-value-figure">0</span></label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="container-fluid variable-list-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5 class="variable">AMOUNT</h5>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <input type="range" class="form-control-range" id="loanAmount">
+                                        <p class="variable-value-wrapper">₹ <span id="variable-value-figure">0</span></label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="container-fluid variable-list-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5 class="variable">AMOUNT</h5>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <input type="range" class="form-control-range" id="loanAmount">
+                                        <p class="variable-value-wrapper">₹ <span id="variable-value-figure">0</span></label>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-l5 col-m12 s12"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <style>
     /* Page Specific Styles */
@@ -144,6 +198,22 @@
     }
     h3.project-title{
         font-size: 1.5rem;
+    }
+    .form-group{margin-bottom: 0;}
+    .variable-list-item{
+        padding-top: 5%;
+        border: 3px solid #393185;
+        margin-bottom: 3%;
+        border-radius: 10px;
+    }
+    div#emi-calculator-box{
+        background-image: url("<?php echo site_url("assets/images/bgs/testimonial1.png"); ?>");
+        background-position: center;
+        background-size: 300%;
+        border-radius: 10px;
+    }
+    h5.variable{
+        color: #393185;
     }
 </style>
 <script>
