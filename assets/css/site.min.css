@@ -273,6 +273,9 @@ div.project-slide-meta{
   font-size: 20px;
   color: #393185;
 }
+h3.project-title{
+  color: #393185;
+}
 .usual-projects-page-section{
   padding: 5em 0;
 }
