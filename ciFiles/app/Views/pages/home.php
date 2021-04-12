@@ -67,6 +67,7 @@
             <div class="title-button-outer">
                 <div class="title-button" id="about-us-desktop-title">
                     <div class="section-title">ABOUT US</div>
+                    <div class="d-none underline"></div>
                 </div>
             </div>
             <div class="row" style="margin: 3% 0;">
@@ -110,7 +111,7 @@
                             <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
-                        <a href="#" id="vp-button-1" class="btn view-project-button" style="background-color: blue; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 28%; padding: 1%;">
+                        <a href="#" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 25%; padding: 1%;">
                         VIEW PROPERTIES
                         </a>
                     </div>
@@ -121,7 +122,7 @@
                             <h4 class="project-grid-title">Precious Emerald</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
-                        <a href="#" id="vp-button-2" class="btn view-project-button" style="background-color: blue; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 28%; padding: 1%;">
+                        <a href="#" id="vp-button-2" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 25%; padding: 1%;">
                         VIEW PROPERTIES
                         </a>
                     </div>
@@ -132,7 +133,7 @@
                             <h4 class="project-grid-title">Precious Heritage</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
-                        <a href="#" id="vp-button-3" class="btn view-project-button" style="background-color: blue; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 28%; padding: 1%;">
+                        <a href="#" id="vp-button-3" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 25%; padding: 1%;">
                         VIEW PROPERTIES
                         </a>
                     </div>

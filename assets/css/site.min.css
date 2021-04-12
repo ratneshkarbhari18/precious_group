@@ -109,7 +109,7 @@ section#map-section-desktop{
     padding: 15% 0;
     position: absolute;
     width: 100%;
-    top: 60em;
+    top: 58em;
     background-position: center;
 }
 section#customers-speak-desktop {
@@ -134,7 +134,7 @@ section#about-us-desktop{
   .title-button {
     margin: 0 auto;
     border-radius: 3px;
-    width: 500px;
+    width: 200px;
     padding: 1% 0 4% 0;
     height: 30px;
     display: block;
@@ -145,8 +145,7 @@ section#about-us-desktop{
   }
   @keyframes titleButtonAnim {
     0%   { background-position: right bottom; }
-    50%   { background-position: left bottom;}
-    100%   { background-position: right bottom;}
+    100%   { background-position: left bottom;}
   }
   
   .title-button{
@@ -163,9 +162,16 @@ section#about-us-desktop{
     animation: sectionTitleAnim 5s linear infinite;
     color: #fff;
   }
+
+  div.title-button div.underline{
+    height: 3%;
+    background-color: #393185;
+    width: 100%;
+    padding: 0.2% 0;
+  }
   
   .section-title {
-    text-align: center;
+    text-align: right;
     font-size: 25px;
     line-height: 30px; 
     color: #393185;
