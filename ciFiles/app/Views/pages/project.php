@@ -23,7 +23,48 @@
             </div>
         </div>
     </section>
-    
+    <section id="features" class="padding-top-bottom-five-em">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-12 col-sm-12">
+
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="card-body text-left feature-card">
+                                    <p class="feature-title">Location</p>
+                                    <p class="feature-text">Ulwe, Mumbai</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="card-body text-left feature-card">
+                                    <p class="feature-title">Flat Configuration</p>
+                                    <p class="feature-text">1 BHK</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="card-body text-left feature-card">
+                                    <p class="feature-title">Maharera No.</p>
+                                    <p class="feature-text">P1234343</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="card-body text-left feature-card">
+                                    <p class="feature-title">Rera Carpet</p>
+                                    <p class="feature-text">489 Sq. Ft.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="map-section-desktop" style="position: relative; top: 0;">
         <div class="container text-center">
             <div class="row">
@@ -119,6 +160,16 @@
 </main>
 <style>
     /* Page Specific Styles */
+    p.feature-title{
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    p.feature-text{
+        color: #333333;
+    }
+    .padding-top-bottom-five-em{
+        padding: 5em 0;
+    }
     p.calculated-amount-wrapper{
         font-size: 30px;
         color: #393185;
@@ -159,6 +210,11 @@
         border: 3px solid #393185;
         margin-bottom: 3%;
         border-radius: 10px;
+    }
+    .feature-card{
+        border: 3px solid #393185;
+        border-radius: 10px;
+        margin-bottom: 10px;
     }
     div#emi-calculator-box{
         background-image: url("<?php echo site_url("assets/images/bgs/testimonial1.png"); ?>");
