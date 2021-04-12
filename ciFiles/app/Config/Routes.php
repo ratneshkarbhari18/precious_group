@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'PageLoader::home');
 $routes->get("all-projects","PageLoader::all_projects");
+$routes->get("project/(:any)","PageLoader::project/$1");
 
 /*
  * --------------------------------------------------------------------

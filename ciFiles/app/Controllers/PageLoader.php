@@ -18,5 +18,12 @@ class PageLoader extends BaseController
 		echo view('pages/all_projects',$data);
 		echo view("templates/footer",$data);
 	}
+	public function project($slug)
+	{
+		$data = array("title"=>"Project Title");
+		echo view("templates/header",$data);
+		echo view('pages/project',$data);
+		echo view("templates/footer",$data);
+	}
 
 }
