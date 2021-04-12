@@ -30,32 +30,7 @@
                     <div class="section-title">COMPLETED PROJECTS</div>
                 </div>
             </div>
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <?php for($i=0;$i<6;$i++): ?>
-                        <div class="swiper-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
-                            <a href="<?php echo site_url("project/1234"); ?>">
-                            <div class="img-container">
-                                <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
-                            </div>
-                            <div class="meta-container container-fluid">
-                                <h3 class="project-title">1 BHK | Precious Harmony</h3>
-                                <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
-                            </div>
-                            </a>
-                        </div>
-                    <?php endfor; ?>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
-
-            </div>
+            
             <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a>
         </div>
         

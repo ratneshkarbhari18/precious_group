@@ -63,6 +63,30 @@
 
                 </div>
             </div>
+            <div class="text-center">
+                <p class="bold-text-3d-view" style="margin: 1% 0;"> <img src="<?php echo site_url("assets/images/3d_view_360.png"); ?>" class="features-icon" style="width: 50px; height: 50px;"> 3D View   <a href="" class="btn" style="background-color: #393185; color: white;">Click to View</a></p>
+                <p class="internal-external-amenities-title" style="font-weight: bold;
+    font-size: 30px;">Internal and External Amenities</p>
+            </div>
+            <div class="swiper-container container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <?php for($i=0;$i<6;$i++): ?>
+                        <div class="swiper-slide text-center">
+                            <img src="<?php echo site_url("assets/images/gym.png"); ?>" class="features-icon" style="width: 50px; height: 50px;">
+                            <p class="feature-title">Well Equipped Gym</p>
+                        </div>
+                    <?php endfor; ?>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+
+            </div>
         </div>
     </section>
     <section id="map-section-desktop" style="position: relative; top: 0;">
@@ -230,3 +254,19 @@
         font-weight: bold;
     }
 </style>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+         // Optional parameters
+        spaceBetween: 10,
+        slidesPerView: 3,
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+            delay: 3000,
+        },  
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+</script>
