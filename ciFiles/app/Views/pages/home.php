@@ -1,3 +1,33 @@
+<div class="container" id="desktop-section-nav" style="background-color: transparent;"> 
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185; padding: 2% 0;">
+    
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link section-nav-link text-light" section-id="about-us-desktop" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-nav-link text-light" section-id="projects-desktop" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-nav-link text-light" section-id="customers-speak-desktop" href="#">CUSTOMER SPEAKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-nav-link text-light" section-id="gallery-desktop" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-nav-link text-light" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-nav-link text-light" section-id="footer" href="#">CONTACT</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </div>
 <main class="page-content" id="home-desktop" class="d-none d-lg-block d-xl-block">
     <section id="home-header" class="usual-section-desktop">
         <div class="container text-center">
@@ -126,13 +156,12 @@
                     $("div#p-meta-"+pid).css("display","none");
                 });
             </script>
-            <a href="#" class="btn" style="background-color: white; border: 3px solid #393185; color: #393185; margin-top: 5%;">
+            <a href="<?php echo site_url("all-projects"); ?>" class="btn" style="background-color: white; border: 3px solid #393185; color: #393185; margin-top: 5%;">
             VIEW ALL PROJECTS
             </a>
         </div>
     </section>
     <section  id="customers-speak-desktop" >
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <div class="container"> 
             <div class="title-button-outer">
                 <div class="title-button">
@@ -183,7 +212,6 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper-container', {
                 // Optional parameters

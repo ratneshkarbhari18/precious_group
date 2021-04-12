@@ -59,16 +59,10 @@
                 <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
             <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
+                <img src="<?php echo site_url("assets/images/form.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
             <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
-            </a></li>
-            <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
-            </a></li>
-            <li class="qa-box-list-item"><a href="#">
-                <img src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
+                <img src="<?php echo site_url("assets/images/chat.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
         </ul>
     </div>

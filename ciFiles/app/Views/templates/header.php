@@ -7,10 +7,12 @@
     <title><?php echo $title; ?> | Precious Group</title>
     <link rel="stylesheet" href="<?php echo site_url("assets/css/bootstrap.min.css"); ?>">
     <link rel="stylesheet" href="<?php echo site_url("assets/css/bg.css"); ?>">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="<?php echo site_url("assets/css/site.min.css"); ?>">
 </head>
 <body>
     <script src="<?php echo site_url("assets/js/jquery.min.js"); ?>"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <header id="desktop" class="d-none">
         <div class="container-fluid" id="desktop-navbar" >
@@ -30,7 +32,7 @@
                 <div class="col-lg-6 text-center">
                     <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/logo.svg"); ?>" style="width: 25%; margin-bottom: 5%;"></a>
                     <div class="top-menu-items-container">
-                        <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> <a href="<?php echo site_url("projects"); ?>" class="top-nav-curved-link">PROJECTS</a> <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> 
+                        <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> <a href="<?php echo site_url("all-projects"); ?>" class="top-nav-curved-link">PROJECTS</a> <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> 
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -53,44 +55,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" id="desktop-section-nav" style="background-color: transparent;"> 
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185; padding: 2% 0;">
-    
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mr-auto">
-                        
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="about-us-desktop" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="projects-desktop" href="#">PROJECTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="customers-speak-desktop" href="#">CUSTOMER SPEAKS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="gallery-desktop" href="#">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="industry-affairs-desktop" href="#">CONTACT</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <script>
-            $("a.section-nav-link").click(function() {
-                let targetSectionId = $(this).attr("section-id");
-                $([document.documentElement, document.body]).animate({
-                    scrollTop: $("section#"+targetSectionId).offset().top
-                }, 1000);
-            });
-        </script>
+       
     </header>
     <header id="touch">
         <div class="container-fluid">

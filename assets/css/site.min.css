@@ -134,7 +134,7 @@ section#about-us-desktop{
   .title-button {
     margin: 0 auto;
     border-radius: 3px;
-    width: 300px;
+    width: 500px;
     padding: 1% 0 4% 0;
     height: 30px;
     display: block;
@@ -173,9 +173,6 @@ section#about-us-desktop{
     display: block;
   }
   
-  .section-title:hover {
-    color: white;  
-  }
   .project-grid-box{
     border: 3px solid #008DD2;
     border-radius: 10px;
@@ -250,6 +247,28 @@ section{
 .navbar-expand-lg .navbar-nav .section-nav-link
 {
   padding: 0 1.1rem 0 1.1rem;
+}
+
+/* Projects Page */
+img.home-icon-gold{
+  width: 50px;
+}
+
+.bg-div{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='614.4' height='355.713' viewBox='0 0 16256 9412' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' image-rendering='optimizeQuality' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='14955.5' y1='4705.77' x2='1300.48' y2='4705.77'%3E%3Cstop offset='0' stop-color='%23b2def3'/%3E%3Cstop offset='.431' stop-color='%23b9d0e9'/%3E%3Cstop offset='1' stop-color='%23c0c1de'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M16256 0v7927c-1868 902-4814 1485-8128 1485S1868 8829 0 7927V0c1868 902 4814 1485 8128 1485S14388 902 16256 0z' fill='url(%23a)'/%3E%3C/svg%3E");  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+div.project-slide-meta{
+  padding: 3%;
+}
+.project-slide-title{
+  font-size: 20px;
+  color: #393185;
+}
+.usual-projects-page-section{
+  padding: 5em 0;
 }
 
   /* Media Queries */
