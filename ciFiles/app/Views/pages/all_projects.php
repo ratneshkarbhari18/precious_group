@@ -91,7 +91,7 @@
         </div>
         
     </section>
-    <section id="ongoing" class="usual-projects-page-section">
+    <section id="upcoming" class="usual-projects-page-section">
         <div class="container">
             <div class="title-button-outer">
                 <div class="title-button">
