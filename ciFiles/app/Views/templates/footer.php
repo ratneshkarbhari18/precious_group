@@ -11,7 +11,7 @@
                     <input class="d-block" type="text" placeholder="Mobile Number" name="email" id="email" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;">
                 </div>
                 <div class="col-lg-3 mb-3 d-grid gap-2">
-                    <button class="btn d-block btn-primary w-100">Submit</button>
+                    <button class="btn w-100 hover-style-button" >Submit</button>
                 </div>
             </form>
             <a href="#" style="border-radius: 30px; margin-top: 2%;"  class="btn btn-outline-primary text-light">QUICK LINKS</a><br>

@@ -155,7 +155,7 @@
                                     </div>
                                     <div class="form-group col-6">
                                         <input type="range" class="form-control-range" id="loanAmount">
-                                        <p class="variable-value-wrapper">₹ <span id="variable-value-figure">0</span></label>
+                                        <p class="variable-value-wrapper">₹ <span class="variable-value-figure">0</span></label>
                                     </div>
                                 </div>
                             </li>
@@ -166,18 +166,18 @@
                                     </div>
                                     <div class="form-group col-6">
                                         <input type="range" class="form-control-range" id="loanMonths">
-                                        <p class="variable-value-wrapper"><span id="variable-value-figure">0</span> MONTHS</label>
+                                        <p class="variable-value-wrapper"><span class="variable-value-figure">0</span> MONTHS</label>
                                     </div>
                                 </div>
                             </li>
-                            <li class="container-fluid variable-list-item">
+                            <li class="container-fluid variable-list-item" style="margin-bottom: 0 !important;">
                                 <div class="row">
                                     <div class="col-6">
                                         <h5 class="variable">INTEREST RATE</h5>
                                     </div>
                                     <div class="form-group col-6">
                                         <input type="range" class="form-control-range" id="loanROI">
-                                        <p class="variable-value-wrapper"><span id="variable-value-figure">0</span> %</label>
+                                        <p class="variable-value-wrapper"><span class="variable-value-figure">0</span> %</label>
                                     </div>
                                 </div>
                             </li>
@@ -236,25 +236,7 @@
         font-size: 1.5rem;
     }
     .form-group{margin-bottom: 0;}
-    .variable-list-item{
-        padding-top: 5%;
-        border: 3px solid #393185;
-        margin-bottom: 3%;
-        border-radius: 10px;
-    }
-    div#emi-calculator-box{
-        background-image: url("<?php echo site_url("assets/images/bgs/testimonial1.png"); ?>");
-        background-position: center;    
-        background-size: 300%;
-        border-radius: 10px;
-    }
-    h5.variable{
-        color: #393185;
-        font-weight: bold;
-    }
-    p.variable-value-wrapper{
-        font-weight: bold;
-    }
+    
 </style>
 <script>
     const swiper = new Swiper('.swiper-container', {

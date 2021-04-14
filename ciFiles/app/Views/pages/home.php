@@ -1,33 +1,33 @@
 <div class="container" id="desktop-section-nav" style="background-color: transparent;"> 
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185; padding: 2% 0;">
-    
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185; padding: 2% 0;">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mr-auto">
-                        
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="about-us-desktop" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="projects-desktop" href="#">PROJECTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="customers-speak-desktop" href="#">CUSTOMER SPEAKS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="gallery-desktop" href="#">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link section-nav-link text-light" section-id="footer" href="#">CONTACT</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </nav>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link section-nav-link" section-id="about-us-desktop" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link section-nav-link" section-id="projects-desktop" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link section-nav-link" section-id="customers-speak-desktop" href="#">CUSTOMER SPEAKS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link section-nav-link" section-id="gallery-desktop" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link section-nav-link" section-id="industry-affairs-desktop" href="#">INDUSTRY AFFAIRS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link section-nav-link" section-id="footer" href="#">CONTACT</a>
+                </li>
+                
+            </ul>
         </div>
+    </nav>
+</div>
 <main class="page-content" id="home-desktop" class="d-none d-lg-block d-xl-block">
     <section id="home-header" class="usual-section-desktop">
         <div class="container text-center">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
 
-                    <div id="address" data-aos-duration="1000" data-aos="fade-left">
+                    <div id="address" data-aos-duration="1000" data-aos="fade-left" class="text-center">
                         <h4 style="color: #393185;">Head Office: </h4>
                         <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
                     </div>
@@ -74,7 +74,7 @@
                 <div class="col-lg-2 col-md-12 col-sm-12">
                     
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="col-lg-8 col-md-12 col-sm-12 text-justify">
                     <div data-aos-duration="2000" data-aos="fade-right" id="about-text">
                         <p>We at precious group actively seek growth by combining dual ethos of integrity and aesthetics in building better tomorrow.</p>
                         <p>Home is the biggest investment of your lifetime; we understand; and hence we strive to contribute our best in fulfilling your dreams. We are committed to always meeting our possession times with your satisfaction in mind, and we will always do everything possible to ensure that your home is ready on or before the promised delivery time.</p>
@@ -105,9 +105,9 @@
     <section id="projects-desktop" data-aos="zoom-in" class="text-center">
         <div class="container text-center">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                     <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-right" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
-                        <div id="p-meta-1" class="project-grid-meta">
+                        <div id="p-meta-1" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
@@ -116,9 +116,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                     <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-up" pid="2" style="background-image: url('<?php echo site_url("assets/images/projects_02.jpg") ?>'); background-size: cover;">
-                        <div id="p-meta-2" class="project-grid-meta">
+                        <div id="p-meta-2" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Emerald</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>
@@ -127,9 +127,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                     <div class="project-grid-box" pid="3" data-aos-duration="1000" data-aos="fade-left" style="background-image: url('<?php echo site_url("assets/images/projects_03.jpg") ?>'); background-size: cover;">
-                        <div id="p-meta-3" class="project-grid-meta">
+                        <div id="p-meta-3" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Heritage</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
                         </div>

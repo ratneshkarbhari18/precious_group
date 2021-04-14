@@ -4,6 +4,19 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
+.hover-style-button
+{
+background-color: #393185; 
+color: white !important;
+border-radius: 10px;
+border: 1px solid white;
+}
+.hover-style-button:hover{
+  color: #393185 !important; 
+  background-color: white !important;
+}
+
 @keyframes boucingIcon {
   0%  { transform: translateY(-2px); }  
   50%  { transform: translateY(-2px); }
@@ -23,6 +36,10 @@
 }
 a:hover{
   text-decoration: none;
+}
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
 }
 .top-nav-curved-link{
     margin-right: 3%;
@@ -99,14 +116,17 @@ section#home-header div.container{
 }
 
 footer#desktop{
-  padding: 50% 0 5% 0;
+  padding: 53% 0 5% 0;
   position: absolute;
   width: 100%;
   z-index: -5; background-color: #393185;
 }
+div.section-title{
+  font-weight: bold;
+}
 section#map-section-desktop{
     background-size: cover;
-    padding: 15% 0;
+    padding: 7% 0;
     position: absolute;
     width: 100%;
     top: 58em;
@@ -235,7 +255,7 @@ section#industry-affairs-desktop{
   z-index: 5;
   background-size: 100% 100%;
   background-position: bottom;
-  padding: 28% 0 22% 0;
+  padding: 28% 0 18% 0;
   position: absolute;
   width: 100%;
   top: 277em;
@@ -249,12 +269,51 @@ section{
   position: relative;
 }
 .section-nav-link{
+  color: ;
   font-size: 0.75rem;
+  font-weight: bold;
+}
+.section-nav-link:hover{
+  color: #ffffff;
 }
 
 .navbar-expand-lg .navbar-nav .section-nav-link
 {
   padding: 0 1.1rem 0 1.1rem;
+}
+
+/* Emi Calculator Styles */
+ul#variables-list{
+  margin-bottom: 0 !important;
+}
+.variable-list-item{
+  padding-top: 5%;
+  border: 3px solid #393185;
+  margin-bottom: 3%;
+  border-radius: 10px;
+}
+.variable-list-item:hover{
+  background-color: #393185;
+  cursor: pointer;
+}
+.variable-list-item:hover div.row div.col-6 h5{
+  color: white;
+}
+.variable-list-item:hover div.row div.col-6.form-group p.variable-value-wrapper{
+  color: white;
+}
+div#emi-calculator-box{
+  background-image: url("../images/bgs/testimonial1.png");
+  background-position: center;    
+  background-size: 300%;
+  border-radius: 10px;
+}
+h5.variable{
+  color: #393185;
+  font-weight: bold;
+}
+p.variable-value-wrapper{
+  font-weight: bold;
 }
 
 /* Projects Page */
@@ -277,7 +336,10 @@ div.project-slide-meta{
 }
 h3.project-title{
   color: #393185;
+  font-size: 1.2rem !important;
+  font-weight: bold;
 }
+
 .usual-projects-page-section{
   padding: 5em 0;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='614.4' height='206.711' viewBox='0 0 16256 5469' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' image-rendering='optimizeQuality' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='14955.5' y1='2734.61' x2='1300.48' y2='2734.61'%3E%3Cstop offset='0' stop-color='%23b2def3'/%3E%3Cstop offset='.431' stop-color='%23b9d0e9'/%3E%3Cstop offset='1' stop-color='%23c0c1de'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M16256 0v3985c-1868 902-4814 1484-8128 1484S1868 4887 0 3985V0c1868 902 4814 1485 8128 1485S14388 902 16256 0z' fill='url(%23a)'/%3E%3C/svg%3E");

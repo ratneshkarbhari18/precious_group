@@ -153,7 +153,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="container-fluid variable-list-item">
+                            <li class="container-fluid variable-list-item" style="margin-bottom: 0 !important;">
                                 <div class="row">
                                     <div class="col-6">
                                         <h5 class="variable">INTEREST RATE</h5>
@@ -236,7 +236,7 @@
         border-radius: 10px;
     }
     .feature-card{
-        border: 3px solid #393185;
+        border: 3px solid #008DD2;
         border-radius: 10px;
         margin-bottom: 10px;
     }
