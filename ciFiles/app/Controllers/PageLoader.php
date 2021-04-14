@@ -25,5 +25,11 @@ class PageLoader extends BaseController
 		echo view('pages/project',$data);
 		echo view("templates/footer",$data);
 	}
+	public function investor_corner(){
+		$data = array("title"=>"Investors Corner");
+		echo view("templates/header",$data);
+		echo view('pages/investors_corner',$data);
+		echo view("templates/footer",$data);
+	}
 
 }
