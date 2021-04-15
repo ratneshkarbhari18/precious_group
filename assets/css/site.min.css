@@ -109,7 +109,7 @@ section#home-header{
   animation: breath 25s linear infinite;
 }
 section#home-header div.container{
-    padding: 10% 0;
+    padding: 5% 0 10% 0;
 }
 .usual-section-desktop{
     padding: 25em 0;
@@ -144,7 +144,7 @@ section#customers-speak-desktop {
 section#about-us-desktop{
     position: absolute;
     width: 100%;
-    top: 132em;
+    top: 111em;
   
 }
 .outer {
