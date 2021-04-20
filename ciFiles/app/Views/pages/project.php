@@ -99,7 +99,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img class="w-100" src="<?php echo site_url("assets/images/map_new.png"); ?>"  style="margin-bottom: 5%; margin-right: -40%;">
+                                <img class="w-100" src="<?php echo site_url("assets/images/maploc.png"); ?>"  style="margin-bottom: 5%; margin-right: -40%;">
                             </div>
                             <div class="col-lg-6">
                                 <img class="w-50" style="margin-left: -40%;"  src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">

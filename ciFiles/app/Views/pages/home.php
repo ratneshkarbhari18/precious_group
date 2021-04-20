@@ -44,7 +44,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img class="w-100" src="<?php echo site_url("assets/images/map_new.png"); ?>"  style="margin-bottom: 5%; margin-right: -40%;" data-aos-duration="1000" data-aos="fade-right">
+                                <img class="w-100" src="<?php echo site_url("assets/images/maploc.png"); ?>"  style="margin-bottom: 5%; margin-right: -40%;" data-aos-duration="1000" data-aos="fade-right">
                             </div>
                             <div class="col-lg-6">
                                 <img class="w-50" style="margin-left: -40%;" data-aos-duration="1000" data-aos="fade-left" src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">
@@ -232,8 +232,8 @@
     </section>
     <section id="gallery-desktop">
         <div class="container"> 
-            <div class="title-button-outer" style="position: absolute; left: 40vw; z-index: 151; top: 20%;">             
-            <div class="title-button" style="padding: 5% 0 13% 0;">
+            <div class="title-button-outer">             
+            <div class="title-button">
                     <div class="section-title">GALLERY</div>
                 </div>
             </div> 
@@ -355,7 +355,7 @@
     </section>
     <style>
         footer#desktop{
-            top: 307em;
+            top: 303em;
         }
     </style>
 </main>

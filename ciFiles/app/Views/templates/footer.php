@@ -11,19 +11,22 @@
                     <input class="d-block" type="text" placeholder="Mobile Number" name="email" id="email" style="padding: 3% 0 3% 5%; border-radius: 30px; width: 100%;">
                 </div>
                 <div class="col-lg-3 mb-3 d-grid gap-2">
-                    <button class="btn w-100 hover-style-button" >Submit</button>
+                    <button class="btn w-100 hover-style-button" style="    font-size: 14px;">Submit</button>
                 </div>
             </form>
-            <a href="#" style="border-radius: 30px; margin-top: 2%;"  class="btn btn-outline-primary text-light">QUICK LINKS</a><br>
+            
             <div class="row" style="margin: 3% 0;">
-                <div class="test-left col-4" style="padding-left: 0;">
+                <div class="col-2">
+                    <a href="#" style="border-radius: 30px; margin-top: 2%;"  class="btn btn-outline-primary text-light">QUICK LINKS</a><br>
+                </div>
+                <div class="test-left col-3" style="padding-left: 0;">
                     <p style=" margin-bottom:0; margin-top: 2%; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/call_gold_new.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">022 2650 6597</p>
                 </div>
                 <div class="test-left col-5">
                     <p style=" margin-bottom:0; margin-top: 2%; font-size: 25px;" class="text-light contact-info"><img src="<?php echo site_url("assets/images/mail_new_gold.svg"); ?>" style="width: 30px; margin-right: 3%; height: 30px;">info@preciousgroup.com</p>
                 </div>
-                <div class="test-left col-3" style="padding-right: 0;">
-                <nav class="navbar navbar-expand-lg" style="padding-right: 0;">
+                <div class="test-left col-2" style="padding-right: 0;">
+                    <nav class="navbar navbar-expand-lg" style="padding-right: 0;">
                         <ul id="left-nav-top-desktop" class="nav-list navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a href="#" class="nav-link"><img src="<?php echo site_url("assets/images/icon_gold_01.svg"); ?>" class="top-icon"></a>
@@ -61,7 +64,7 @@
             <li class="qa-box-list-item"><a href="#">
                 <img src="<?php echo site_url("assets/images/form.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
-            <li class="qa-box-list-item"><a href="#">
+            <li class="qa-box-list-item" style="margin-bottom: 0;"><a href="#">
                 <img src="<?php echo site_url("assets/images/chat.gif"); ?>" class="bouncing-icon" alt="" srcset="">
             </a></li>
         </ul>

@@ -99,7 +99,7 @@ ul#qa-list li{
 
 
 section#home-header{
-  background-image: url(../images/bgs/homeimages.png);
+  background-image: url(../images/bgs/homeimages.jpg);
   background-position: top;
   background-size: cover;
   z-index: -5;
@@ -116,10 +116,11 @@ section#home-header div.container{
 }
 
 footer#desktop{
-  padding: 53% 0 5% 0;
+  padding: 20rem 0 5rem 0;
   position: absolute;
   width: 100%;
-  z-index: -5; background-color: #393185;
+  z-index: -5;
+  background-color: #393185;
 }
 div.section-title{
   font-weight: bold;
@@ -138,7 +139,7 @@ section#customers-speak-desktop {
     border: 15px solid #fff;
     background-color: white;
     width: 100%;
-    top: 218em;
+    top: 198em;
     z-index: 5;
 }
 section#about-us-desktop{
@@ -193,7 +194,7 @@ section#about-us-desktop{
   }
   
   .section-title {
-    text-align: right;
+    text-align: center;
     font-size: 25px;
     line-height: 30px; 
     color: #393185;
@@ -234,7 +235,7 @@ section#projects-desktop
 padding: 5% 0 12% 0;
 position: absolute;
 width: 100%;
-top: 185em;
+top: 165em;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -247,7 +248,7 @@ section#gallery-desktop
   background-size: cover;
   padding: 18% 0;
   z-index: 5;
-  top: 243em;
+  top: 223em;
   width: 100%;
 }
 
@@ -269,7 +270,7 @@ section#industry-affairs-desktop{
   padding: 28% 0 18% 0;
   position: absolute;
   width: 100%;
-  top: 277em;
+  top: 257em;
 }
 
 section#about-us-desktop div.container{
