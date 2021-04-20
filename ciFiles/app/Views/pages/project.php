@@ -1,56 +1,81 @@
 <main class="page-content" id="project">
-    <section id="project-card-section " class="usual-projects-page-section" style="padding-bottom: 15em; margin-bottom: 5em;">
+    <section id="project-card-section " class="usual-projects-page-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12"></div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="swiper-slidex" style="border: 3px solid #008DD2; border-radius: 10px;">
-                        <div class="img-container">
-                            <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
-                        </div>
-                        <div class="meta-container container-fluid text-center">
-                            <h3 class="project-title">1 BHK | Precious Harmony</h3>
-                            <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
-                        </div>
+                <div class="col-lg-2 col-md-12 col-sm-12"></div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="meta-containerx container-fluid text-center">
+                        <h2 class="project-title"> <img src="http://localhost/precious_group_dynamic/assets/images/location.png" class="contact-info-icon">1 BHK | Precious Harmony</h2>
+                        <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
                     </div>
-                    <div class="text-center" style="    margin-top: 10%;
-    position: absolute;">
+                    <div class="swiper-slidex container-fluid" style="border: 3px solid #008DD2; border-radius: 10px;">
+                        <div class="row">
+                            <div class="img-container col-lg-7 col-md-12 col-sm-12" style="padding:0;">
+                                <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                            </div>
+                            <div class="img-container col-lg-5 col-md-12 col-sm-12" style="padding:0; background-color: white;">
+                                <p class="internal-external-amenities-title text-center" style="font-size: 25px; margin-top: 5rem;">Internal and External Amenities</p>
+                                <div class="swiper-container container">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <?php for($i=0;$i<6;$i++): ?>
+                                            <div class="swiper-slide text-center">
+                                                <img src="<?php echo site_url("assets/images/gym.png"); ?>" class="features-icon" style="width: 50px; height: 50px;">
+                                                <p class="feature-title">Well Equipped Gym</p>
+                                            </div>
+                                        <?php endfor; ?>
+                                    </div>
+                                    <!-- If we need pagination -->
+                                    <div class="swiper-pagination"></div>
+
+                                    <!-- If we need navigation buttons -->
+                                    <!-- <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div> -->
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="text-center" style="    margin-top: 10%;">
                         <h4 id="hightlights-title" style="color: #393185; font-weight: bold;">Highlights</h4>
                         <p class="highlights">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque explicabo molestias, sed mollitia optio facere molestiae dicta placeat dolorem veritatis nobis dolore quibusdam sunt ad facilis repellat impedit in maxime!</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12"></div>
+                <div class="col-lg-2 col-md-12 col-sm-12"></div>
             </div>
         </div>
     </section>
     <section id="features" class="padding-top-bottom-five-em">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-2 col-md-12 col-sm-12">
+                <div class="col-lg-1 col-md-12 col-sm-12">
 
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="col-lg-10 col-md-12 col-sm-12">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
                                 <div class="card-body text-left feature-card">
                                     <p class="feature-title">Location</p>
                                     <p class="feature-text">Ulwe, Mumbai</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
                                 <div class="card-body text-left feature-card">
                                     <p class="feature-title">Flat Configuration</p>
                                     <p class="feature-text">1 BHK</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
                                 <div class="card-body text-left feature-card">
                                     <p class="feature-title">Maharera No.</p>
                                     <p class="feature-text">P1234343</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-3 col-md-12 col-sm-12">
                                 <div class="card-body text-left feature-card">
                                     <p class="feature-title">Rera Carpet</p>
                                     <p class="feature-text">489 Sq. Ft.</p>
@@ -59,34 +84,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-12 col-sm-12">
+                <div class="col-lg-1 col-md-12 col-sm-12">
 
                 </div>
             </div>
             <div class="text-center">
                 <p class="bold-text-3d-view" style="margin: 1% 0;"> <img src="<?php echo site_url("assets/images/3d_view_360.png"); ?>" class="features-icon" style="width: 50px; height: 50px;"> 3D View   <a href="" class="btn" style="background-color: #393185; color: white;">Click to View</a></p>
-                <p class="internal-external-amenities-title" style="font-weight: bold;
-    font-size: 30px;">Internal and External Amenities</p>
+                
             </div>
-            <div class="swiper-container container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <?php for($i=0;$i<6;$i++): ?>
-                        <div class="swiper-slide text-center">
-                            <img src="<?php echo site_url("assets/images/gym.png"); ?>" class="features-icon" style="width: 50px; height: 50px;">
-                            <p class="feature-title">Well Equipped Gym</p>
-                        </div>
-                    <?php endfor; ?>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
-
-            </div>
+           
         </div>
     </section>
     <section id="map-section-desktop" style="position: relative; top: 0;">
@@ -185,10 +191,12 @@
 <style>
     /* Page Specific Styles */
     p.feature-title{
+        margin-bottom: 0;
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     p.feature-text{
+        margin-bottom: 0;
         color: #333333;
     }
     .padding-top-bottom-five-em{
@@ -258,7 +266,7 @@
     const swiper = new Swiper('.swiper-container', {
          // Optional parameters
         spaceBetween: 10,
-        slidesPerView: 3,
+        slidesPerView: 1,
         direction: 'horizontal',
         loop: true,
         autoplay: {
