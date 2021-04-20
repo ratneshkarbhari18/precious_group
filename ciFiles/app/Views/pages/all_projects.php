@@ -41,7 +41,7 @@
                                 <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
                             </div>
                             <div class="meta-container container-fluid">
-                                <h3 class="project-title">1 BHK | Precious Harmony</h3>
+                                <h2 class="project-title">1 BHK | Precious Harmony</h2>
                                 <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
                             </div>
                             </a>
@@ -78,7 +78,7 @@
                                 <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
                             </div>
                             <div class="meta-container container-fluid">
-                                <h3 class="project-title">1 BHK | Precious Harmony</h3>
+                                <h2 class="project-title">1 BHK | Precious Harmony</h2>
                                 <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
                             </div>
                             </a>
@@ -115,7 +115,7 @@
                                 <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
                             </div>
                             <div class="meta-container container-fluid">
-                                <h3 class="project-title">1 BHK | Precious Harmony</h3>
+                                <h2 class="project-title">1 BHK | Precious Harmony</h2>
                                 <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
                             </div>
                             </a>
@@ -142,8 +142,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-2 col-md-12 col-sm-12"></div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="col-lg-1 col-md-12 col-sm-12"></div>
+                <div class="col-lg-10 col-md-12 col-sm-12"> 
                     <div id="emi-calculator-box" class="container-fluid card">
                         <div class="row card-body">
                             <div class="col-lg-7 col-md-12 col-sm-12">
@@ -197,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-12 col-sm-12"></div>
+                <div class="col-lg-1 col-md-12 col-sm-12"></div>
             </div>
             
         </div>
@@ -236,8 +236,8 @@
         margin-top: 3%;
         padding: 3% 0 5% 0;
     }
-    h3.project-title{
-        font-size: 1.5rem;
+    h2.project-title{
+        font-size: 1.1rem !important;
     }
     .form-group{margin-bottom: 0;}
     

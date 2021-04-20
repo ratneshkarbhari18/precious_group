@@ -27,7 +27,7 @@
                                         <?php endfor; ?>
                                     </div>
                                     <!-- If we need pagination -->
-                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-pagination" style="bottom: -5%;"></div>
 
                                     <!-- If we need navigation buttons -->
                                     <!-- <div class="swiper-button-prev"></div>
@@ -130,61 +130,65 @@
                     <div class="section-title">LOAN CALCULATOR</div>
                 </div>
             </div>
-            <style>
-            
-            </style>
-            <div id="emi-calculator-box" class="container-fluid card">
-                <div class="row card-body">
-                    <div class="col-lg-7 col-md-12 col-sm-12">
-                        <ul id="variables-list" style="list-style: none; padding-left: 0;">
-                            <li class="container-fluid variable-list-item">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <h5 class="variable">AMOUNT</h5>
-                                    </div>
-                                    <div class="form-group col-6">
-                                        <input type="range" class="form-control-range" id="loanAmount">
-                                        <p class="variable-value-wrapper">₹ <span id="variable-value-figure">0</span></label>
+            <div class="row">
+                <div class="col-lg-1 col-md-12 col-sm-12"></div>
+                <div class="col-lg-10 col-md-12 col-sm-12"> 
+                    <div id="emi-calculator-box" class="container-fluid card">
+                        <div class="row card-body">
+                            <div class="col-lg-7 col-md-12 col-sm-12">
+                                <ul id="variables-list" style="list-style: none; padding-left: 0;">
+                                    <li class="container-fluid variable-list-item">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h5 class="variable">AMOUNT</h5>
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <input type="range" class="form-control-range" id="loanAmount">
+                                                <p class="variable-value-wrapper">₹ <span class="variable-value-figure">0</span></label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="container-fluid variable-list-item">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h5 class="variable">MONTHS</h5>
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <input type="range" class="form-control-range" id="loanMonths">
+                                                <p class="variable-value-wrapper"><span class="variable-value-figure">0</span> MONTHS</label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="container-fluid variable-list-item" style="margin-bottom: 0 !important;">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h5 class="variable">INTEREST RATE</h5>
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <input type="range" class="form-control-range" id="loanROI">
+                                                <p class="variable-value-wrapper"><span class="variable-value-figure">0</span> %</label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-5 col-md-12 col-sm-12 text-center">
+                                <div class="card" id="results-card">
+                                    <div class="card-body">
+                                        <p class="result-title">LOAN EMI</p>
+                                        <p class="calculated-amount-wrapper">₹ <span id="caclulated-amount">1331.21</span></p>
+                                        <p class="result-title">TOTAL PAYMENT</p>
+                                        <p class="result-title">(PRINCIPLE + INTEREST)</p>
+                                        <p class="calculated-amount-wrapper">₹ <span id="caclulated-amount">1331.21</span></p>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="container-fluid variable-list-item">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <h5 class="variable">MONTHS</h5>
-                                    </div>
-                                    <div class="form-group col-6">
-                                        <input type="range" class="form-control-range" id="loanMonths">
-                                        <p class="variable-value-wrapper"><span id="variable-value-figure">0</span> MONTHS</label>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="container-fluid variable-list-item" style="margin-bottom: 0 !important;">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <h5 class="variable">INTEREST RATE</h5>
-                                    </div>
-                                    <div class="form-group col-6">
-                                        <input type="range" class="form-control-range" id="loanROI">
-                                        <p class="variable-value-wrapper"><span id="variable-value-figure">0</span> %</label>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-5 col-md-12 col-sm-12 text-center">
-                        <div class="card" id="results-card">
-                            <div class="card-body">
-                                <p class="result-title">LOAN EMI</p>
-                                <p class="calculated-amount-wrapper">₹ <span id="caclulated-amount">1331.21</span></p>
-                                <p class="result-title">TOTAL PAYMENT</p>
-                                <p class="result-title">(PRINCIPLE + INTEREST)</p>
-                                <p class="calculated-amount-wrapper">₹ <span id="caclulated-amount">1331.21</span></p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-1 col-md-12 col-sm-12"></div>
             </div>
+            
         </div>
     </section>
 </main>
