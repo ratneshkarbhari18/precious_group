@@ -30,21 +30,27 @@
                     <div class="section-title">COMPLETED PROJECTS</div>
                 </div>
             </div>
-            <div class="swiper-container">
+            <div class="container">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
+                <div class="row properties-row">
                     <!-- Slides -->
-                    <?php for($i=0;$i<6;$i++): ?>
-                        <div class="swiper-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
-                            <a href="<?php echo site_url("project/1234"); ?>">
-                            <div class="img-container">
-                                <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                    <?php for($i=0;$i<2;$i++): ?>
+                        <div class="col-lg-6 col-md-12 col-sm-12" >
+                            <div style="border: 3px solid #008DD2; border-radius: 10px;">
+                                <a href="<?php echo site_url("project/1234"); ?>">
+                                    <div class="owl-carousel owl-theme project-images-carousel">
+                                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                                    </div>
+                                    <div class="meta-container container-fluid">
+                                        <h2 class="project-title">1 BHK | Precious Harmony</h2>
+                                        <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="meta-container container-fluid">
-                                <h2 class="project-title">1 BHK | Precious Harmony</h2>
-                                <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
-                            </div>
-                            </a>
+                            
                         </div>
                     <?php endfor; ?>
                 </div>
@@ -56,7 +62,7 @@
                 <div class="swiper-button-next"></div> -->
 
             </div>
-            <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a>
+            <!-- <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a> -->
         </div>
         
     </section>
@@ -67,7 +73,7 @@
                     <div class="section-title">ONGOING PROJECTS</div>
                 </div>
             </div>
-            <div class="swiper-container">
+            <div class="swiper-container swiper-containerx">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -93,7 +99,7 @@
                 <div class="swiper-button-next"></div> -->
 
             </div>
-            <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a>
+            <!-- <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a> -->
         </div>
         
     </section>
@@ -104,7 +110,7 @@
                     <div class="section-title">UPCOMING PROJECTS</div>
                 </div>
             </div>
-            <div class="swiper-container">
+            <div class="swiper-container swiper-containerx">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -130,7 +136,7 @@
                 <div class="swiper-button-next"></div> -->
 
             </div>
-            <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a>
+            <!-- <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a> -->
         </div>
         
     </section>
@@ -228,6 +234,10 @@
     z-index: -5;
     background-color: #393185;
     }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
     .meta-container{
         padding-top: 15px;
         padding-bottom: 15px;
@@ -243,7 +253,7 @@
     
 </style>
 <script>
-    const swiper = new Swiper('.swiper-container', {
+    const swiper = new Swiper('.swiper-containerx', {
          // Optional parameters
         spaceBetween: 10,
         slidesPerView: 3,
@@ -257,4 +267,33 @@
             type: 'bullets',
         },
     });
+    const swiperx = new Swiper('.project-img-container', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+            delay: 3000,
+        },  
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script>
+$(".project-images-carousel").owlCarousel({
+    loop:true,
+    autoplay:true,
+    dots: false,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
 </script>
