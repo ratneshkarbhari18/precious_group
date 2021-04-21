@@ -41,8 +41,8 @@
                             <div style="border: 3px solid #008DD2; border-radius: 10px;">
                                 <a href="<?php echo site_url("project/1234"); ?>">
                                     <div class="owl-carousel owl-theme project-images-carousel">
-                                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
-                                        <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+                                        <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
+                                        <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
                                     </div>
                                     <div class="meta-container container-fluid">
                                         <h2 class="project-title">1 BHK | Precious Harmony</h2>
