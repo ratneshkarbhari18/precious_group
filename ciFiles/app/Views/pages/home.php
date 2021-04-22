@@ -76,18 +76,17 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 text-justify">
                     <div data-aos-duration="2000" data-aos="fade-right" id="about-text">
-                        <p>We at precious group actively seek growth by combining dual ethos of integrity and aesthetics in building better tomorrow.</p>
-                        <p>Home is the biggest investment of your lifetime; we understand; and hence we strive to contribute our best in fulfilling your dreams. We are committed to always meeting our possession times with your satisfaction in mind, and we will always do everything possible to ensure that your home is ready on or before the promised delivery time.</p>
+                        <p>We at precious group actively seek growth by combining dual ethos of integrity and aesthetics in building better tomorrow.
+                        Home is the biggest investment of your lifetime; we understand; and hence we strive to contribute our best in fulfilling your dreams. We are committed to always meeting our possession times with your satisfaction in mind, and we will always do everything possible to ensure that your home is ready on or before the promised delivery time.
                         <p>
                         Our mission is to provide prompt and hassle free services for a complete customer satisfaction for which we always carry a value for money approach.</p>
-                        <p>
+                        </p><p>
                         To achieve our goals and fulfill your demands, we have skilled workforce under the direct supervision of a highly progressive management. Our Experts are always happy to help you at various stages in selection of locations per your need.
-                        </p>
-                        <p>Our commitment to quality & innovation is earning us the enduring trust of our customers and making us the renowned brand. 
+                        
+                        Our commitment to quality & innovation is earning us the enduring trust of our customers and making us the renowned brand. </p>
                         </p>
                         <p>We take the pleasure to have 1213+ extended families onboard through our journey within 5,000,00 sq.ft of developed land. 
-                        </p>
-                        <p>We pledge to continue this mission of world-class development and to enrich living styles across all spectrum of society.</p>
+                        We pledge to continue this mission of world-class development and to enrich living styles across all spectrum of society.</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
