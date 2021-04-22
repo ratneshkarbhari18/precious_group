@@ -55,7 +55,6 @@
                     <?php endfor; ?>
                 </div>
                 <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
 
                 <!-- If we need navigation buttons -->
                 <!-- <div class="swiper-button-prev"></div>
@@ -73,31 +72,25 @@
                     <div class="section-title">ONGOING PROJECTS</div>
                 </div>
             </div>
-            <div class="swiper-container swiper-containerx">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
+            <div class="row properties-row">
                     <!-- Slides -->
-                    <?php for($i=0;$i<6;$i++): ?>
-                        <div class="swiper-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
+                <?php for($i=0;$i<2;$i++): ?>
+                    <div class="col-lg-6 col-md-12 col-sm-12" >
+                        <div style="border: 3px solid #008DD2; border-radius: 10px;">
                             <a href="<?php echo site_url("project/1234"); ?>">
-                            <div class="img-container">
-                                <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
-                            </div>
-                            <div class="meta-container container-fluid">
-                                <h2 class="project-title">1 BHK | Precious Harmony</h2>
-                                <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
-                            </div>
+                                <div class="owl-carousel owl-theme project-images-carousel">
+                                    <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
+                                    <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
+                                </div>
+                                <div class="meta-container container-fluid">
+                                    <h2 class="project-title">1 BHK | Precious Harmony</h2>
+                                    <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
+                                </div>
                             </a>
                         </div>
-                    <?php endfor; ?>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
-
+                        
+                    </div>
+                <?php endfor; ?>
             </div>
             <!-- <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a> -->
         </div>
@@ -110,32 +103,26 @@
                     <div class="section-title">UPCOMING PROJECTS</div>
                 </div>
             </div>
-            <div class="swiper-container swiper-containerx">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
+            <div class="row properties-row">
                     <!-- Slides -->
-                    <?php for($i=0;$i<6;$i++): ?>
-                        <div class="swiper-slide" style="border: 3px solid #008DD2; border-radius: 10px;">
-                            <a href="<?php echo site_url("project/1234"); ?>">
-                            <div class="img-container">
-                                <img src="<?php echo site_url("assets/images/projects_01.jpg"); ?>" class="project-image w-100">
+            <?php for($i=0;$i<2;$i++): ?>
+                <div class="col-lg-6 col-md-12 col-sm-12" >
+                    <div style="border: 3px solid #008DD2; border-radius: 10px;">
+                        <a href="<?php echo site_url("project/1234"); ?>">
+                            <div class="owl-carousel owl-theme project-images-carousel">
+                                <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
+                                <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
                             </div>
                             <div class="meta-container container-fluid">
                                 <h2 class="project-title">1 BHK | Precious Harmony</h2>
                                 <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
                             </div>
-                            </a>
-                        </div>
-                    <?php endfor; ?>
+                        </a>
+                    </div>
+                    
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
-
-            </div>
+            <?php endfor; ?>
+        </div>
             <!-- <a href="#" id="vp-button-1" class="btn view-project-button text-center" style="position: absolute;background-color: #393185;color: white;border: 3px solid white;left: 39rem;">VIEW ALL</a> -->
         </div>
         

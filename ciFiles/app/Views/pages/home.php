@@ -156,7 +156,7 @@
                     $("div#p-meta-"+pid).css("display","none");
                 });
             </script>
-            <a href="<?php echo site_url("all-projects"); ?>" class="btn" style="background-color: white; border: 3px solid #393185; color: #393185; margin-top: 5%;">
+            <a href="<?php echo site_url("all-projects"); ?>" class="btn" style="background-color: white; border: 3px solid #393185; color: #393185; margin-top: 5%; position: absolute; left: 35rem;">
             VIEW ALL PROJECTS
             </a>
         </div>

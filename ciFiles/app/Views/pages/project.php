@@ -22,7 +22,7 @@
                                         <?php for($i=0;$i<6;$i++): ?>
                                             <div class="swiper-slide text-center">
                                                 <img src="<?php echo site_url("assets/images/gym.png"); ?>" class="features-icon" style="width: 50px; height: 50px;">
-                                                <p class="feature-title">Well Equipped Gym</p>
+                                                <!-- <p class="feature-title">Well Equipped Gym</p> -->
                                             </div>
                                         <?php endfor; ?>
                                     </div>
@@ -57,30 +57,40 @@
                 <div class="col-lg-10 col-md-12 col-sm-12">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-3 col-md-12 col-sm-12">
-                                <div class="card-body text-left feature-card">
-                                    <p class="feature-title">Location</p>
-                                    <p class="feature-text">Ulwe, Mumbai</p>
+                            <div class="col-lg-1 col-md-12 col-sm-12"></div>
+                            <div class="col-lg-10 col-md-12 col-sm-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                            
+                                        <div class="col-lg-3 col-md-12 col-sm-12">
+                                            <div class="card-body card-body-corrected-padding text-left feature-card">
+                                                <p class="feature-title">Location</p>
+                                                <p class="feature-text">Ulwe, Mumbai</p>
+                                            </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                                <div class="card-body card-body-corrected-padding text-left feature-card">
+                                                    <p class="feature-title">Flat Configuration</p>
+                                                    <p class="feature-text">1 BHK</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                                <div class="card-body card-body-corrected-padding text-left feature-card">
+                                                    <p class="feature-title">Maharera No.</p>
+                                                    <p class="feature-text">P1234343</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                                <div class="card-body card-body-corrected-padding text-left feature-card">
+                                                    <p class="feature-title">Rera Carpet</p>
+                                                    <p class="feature-text">489 Sq. Ft.</p>
+                                                </div>
+                                            </div>
+                                    
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-12 col-sm-12">
-                                <div class="card-body text-left feature-card">
-                                    <p class="feature-title">Flat Configuration</p>
-                                    <p class="feature-text">1 BHK</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-12 col-sm-12">
-                                <div class="card-body text-left feature-card">
-                                    <p class="feature-title">Maharera No.</p>
-                                    <p class="feature-text">P1234343</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-12 col-sm-12">
-                                <div class="card-body text-left feature-card">
-                                    <p class="feature-title">Rera Carpet</p>
-                                    <p class="feature-text">489 Sq. Ft.</p>
-                                </div>
-                            </div>
+                            <div class="col-lg-1 col-md-12 col-sm-12"></div>
                         </div>
                     </div>
                 </div>
@@ -89,7 +99,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <p class="bold-text-3d-view" style="margin: 1% 0;"> <img src="<?php echo site_url("assets/images/3d_view_360.png"); ?>" class="features-icon" style="width: 50px; height: 50px;"> 3D View   <a href="" class="btn" style="background-color: #393185; color: white;">Click to View</a></p>
+                <p class="bold-text-3d-view" style="margin: 1% 0;"> <img src="<?php echo site_url("assets/images/3d_view_360.png"); ?>" class="features-icon" style="width: 50px; height: 50px;"> <span style="font-size: 1.3rem; font-weight: bold; margin-right: 3%;">3D View </span>  <a href="" class="btn btn-lg" style="background-color: #393185; color: white;">Click to View</a></p>
                 
             </div>
            
@@ -104,12 +114,9 @@
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <img class="w-100" src="<?php echo site_url("assets/images/maploc.png"); ?>"  style="margin-bottom: 5%; margin-right: -40%;">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="w-50" style="margin-left: -40%;"  src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">
-                            </div>                            
+                            <div class="col-lg-12">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15074.20286701575!2d73.2257114!3d19.1711341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b78d7f44c56769e!2sprapanch%20studio!5e0!3m2!1sen!2sin!4v1619096473121!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                                
+                            </div>                    
                         </div>
                     </div>
 
@@ -261,6 +268,9 @@
     h5.variable{
         color: #393185;
         font-weight: bold;
+    }
+    .card-body-corrected-padding{
+        padding: 2%;
     }
     p.variable-value-wrapper{
         font-weight: bold;
