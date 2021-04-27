@@ -5,7 +5,7 @@
                 <div class="col-lg-2 col-md-12 col-sm-12"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="meta-containerx container-fluid text-center">
-                        <h2 class="project-title"> <img src="http://localhost/precious_group_dynamic/assets/images/location.png" class="contact-info-icon">1 BHK | Precious Harmony</h2>
+                        <h2 class="project-title"> <img src="<?php echo site_url("assets/images/location.png"); ?>" class="contact-info-icon">1 BHK | Precious Harmony</h2>
                         <p class="project-text">Sector - 18 / Plot No. 104, Ulwe</p>
                     </div>
                     <div class="swiper-slidex container-fluid" style="border: 3px solid #008DD2; border-radius: 10px;">

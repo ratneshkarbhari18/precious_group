@@ -173,6 +173,24 @@
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
                     <div class="swiper-slide testimonial-slide container-fluid">
+                        <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
+                        <h4 class="testimonial-title">Mr. Sanghvi</h4>
+                        <p style="margin-bottom: 3%;">The most important but scarce quality in people is TRUST. Precious Group is just that – one of pure, mutual TRUST, an example of belief in people being reciprocated in the real spirit. My experience with them shows that Precious Group has grown exponentially and the basis of this growth has to be fair practices and trust.</p>
+                        <p><span style="font-weight: bold; color:#393185;">Precious Harmony </span></p>
+                    </div>
+                    <div class="swiper-slide testimonial-slide container-fluid">
+                        <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
+                        <h4 class="testimonial-title">Dilip Dhawan</h4>
+                        <p style="margin-bottom: 3%;">Precious Group didn’t just give us a flat, but an extended family in the form of neighbours and good community living. We as a family are more than happy to have come across Precious Group as they correctly identified our requirement and suggested a location which in our budget as well as fulfilled with amenities.</p>
+                        <p><span style="font-weight: bold; color:#393185;">Precious Heritage</span></p>
+                    </div>
+                    <div class="swiper-slide testimonial-slide container-fluid">
+                        <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
+                        <h4 class="testimonial-title">Sundaram Phadke</h4>
+                        <p style="margin-bottom: 3%;">Initially I had just come along with my friend for a site visit, my plan was to wait for 2 years and then invest, but after the site visit, frequent meetings with the Precious Groups, and their after service which I witnessed through my friends helped me to be sure about Precious Group. Further without any delay, within a year I booked a flat with Precious Group. And I and my Family are glad to have made this decision. </p>
+                        <p><span style="font-weight: bold; color:#393185;">Precious Emerald</span> </p>
+                    </div>
+                    <!-- <div class="swiper-slide testimonial-slide container-fluid">
                         <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
@@ -189,25 +207,7 @@
                         <h4 class="testimonial-title">Testimonial Title</h4>
                         <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
                         <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
-                    </div>
-                    <div class="swiper-slide testimonial-slide container-fluid">
-                        <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4 class="testimonial-title">Testimonial Title</h4>
-                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
-                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
-                    </div>
-                    <div class="swiper-slide testimonial-slide container-fluid">
-                        <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4 class="testimonial-title">Testimonial Title</h4>
-                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
-                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
-                    </div>
-                    <div class="swiper-slide testimonial-slide container-fluid">
-                        <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image">
-                        <h4 class="testimonial-title">Testimonial Title</h4>
-                        <p style="margin-bottom: 3%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur eveniet natus vel atque ipsum excepturi placeat magni nobis officiis?</p>
-                        <p><span style="font-weight: bold; color:#393185;">John Doe</span> - Designation</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -239,11 +239,11 @@
             <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" id="gallery-slider">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0px 5%; transition-duration: 300ms; transform: translate3d(-1480px, 0px, 0px);" id="swiper-wrapper-facb6b4b1001fee105" aria-live="off"><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="1 / 9">
-                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_01.jpg">
+                        <img class="w-100" src="<?php echo site_url("assets/images/township_01.jpg"); ?>">
                     </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-active" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="1" role="group" aria-label="2 / 9">
-                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_02.jpg">
+                        <img class="w-100" src="<?php echo site_url("assets/images/township_02.jpg"); ?>">
                     </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-next" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="2" role="group" aria-label="3 / 9">
-                        <img class="w-100" src="http://3.6.86.32/precious_group/assets/images/township_03.jpg">
+                        <img class="w-100" src="<?php echo site_url("assets/images/township_03.jpg");  ?>">
                     </div>
                     <!-- Slides -->
                     <div class="swiper-slide gallery-slide container-fluid swiper-slide-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="4 / 9">
@@ -303,25 +303,31 @@
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
                     <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_01.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
-                        <div class="township-meta">
-                            <h4 class="text-light">TOWNSHIP</h4>
-                            <p>Ulve, Navi Mumbai</p>
-                            <p>2BHK, 1BHK</p>
-                        </div>
+                        <a href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-5-stamp-duty-for-property-registrations-restored-in-city/articleshow/81789131.cms#:~:text=The%20slashing%20of%20stamp%20duty,come%20into%20effect%20from%20Thursday.">
+                            <div class="township-meta">
+                                <h4 class="text-light">TOWNSHIP</h4>
+                                <p>Ulve, Navi Mumbai</p>
+                                <p>2BHK, 1BHK</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_02.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
-                        <div class="township-meta">
-                            <h4 class="text-light">TOWNSHIP</h4>
-                            <p>Ulve, Navi Mumbai</p>
-                            <p>2BHK, 1BHK</p>
-                        </div>
+                        <a href="https://realty.economictimes.indiatimes.com/news/residential/navi-mumbai-residential-launches-witness-5-increase-in-flat-sizes-in-h2-2020-report/81479066">
+                            <div class="township-meta">
+                                <h4 class="text-light">TOWNSHIP</h4>
+                                <p>Ulve, Navi Mumbai</p>
+                                <p>2BHK, 1BHK</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_03.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
-                        <div class="township-meta">
-                            <h4 class="text-light">TOWNSHIP</h4>
-                            <p>Ulve, Navi Mumbai</p>
-                            <p>2BHK, 1BHK</p>
-                        </div>
+                        <a href="https://realestate4investing.com/articles/real-estate-investments/10-advantages-disadvantages-real-estate-investments">
+                            <div class="township-meta">
+                                <h4 class="text-light">TOWNSHIP</h4>
+                                <p>Ulve, Navi Mumbai</p>
+                                <p>2BHK, 1BHK</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

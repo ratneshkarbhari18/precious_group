@@ -139,13 +139,45 @@ section#customers-speak-desktop {
     border: 15px solid #fff;
     background-color: white;
     width: 100%;
-    top: 198em;
+    top: 188em;
     z-index: 5;
+}
+p,h4.testimonial-title{
+  color:  #393185;
+}
+h4.testimonial-title
+{
+font-weight: bold;
+}
+.testimonial-body{
+margin-bottom: 3%;
+} 
+.testimonial-slide{
+border-radius: 10px;
+  padding-top: 2% ;
+  border: 2px solid #008DD2
+;background-image: url('../images/bgs/testimonial2.png');background-size: 300%;width: 550px;margin-right: 10px;background-position: center;
+}
+.testimonial-slide:hover{
+background-image: url('../images/bgs/testimonial1.png') !important;
+background-size: 300%;
+background-position: center;
+color: #fff !important;
+}
+.testimonial-image{
+    border-radius: 50%;
+    width: 90px !important;
+    height: 90px;
+    background-color: black;
+    position: absolute;
+    top: -50px;
+    left: 5%;
+    border: 5px solid #008DD2;
 }
 section#about-us-desktop{
     position: absolute;
     width: 100%;
-    top: 111em;
+    top: 105em;
   
 }
 .outer {
@@ -235,7 +267,7 @@ section#projects-desktop
 padding: 5% 0 12% 0;
 position: absolute;
 width: 100%;
-top: 165em;
+top: 155em;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -248,7 +280,7 @@ section#gallery-desktop
   background-size: cover;
   padding: 18% 0;
   z-index: 5;
-  top: 223em;
+  top: 218em;
   width: 100%;
 }
 
