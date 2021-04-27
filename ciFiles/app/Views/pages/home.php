@@ -28,7 +28,7 @@
         </div>
     </nav>
 </div>
-<main class="page-content" id="home-desktop" class="d-none d-lg-block d-xl-block">
+<main class="page-content d-none d-lg-block d-xl-block" id="home-desktop">
     <section id="home-header" class="usual-section-desktop">
         <div class="container text-center">
             <h1 id="building-better-tommorow-titlex" style="color: white; font-size: 50px;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
@@ -364,6 +364,7 @@
         }
     </style>
 </main>
-<main class="page-content" id="home-touch" class="d-sm-block d-md-block d-lg-none">
+<main class="page-content d-sm-block d-md-block d-lg-none" id="home-touch">
+    
     
 </main>

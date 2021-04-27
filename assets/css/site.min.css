@@ -59,6 +59,12 @@ header#desktop{
   padding-bottom: 3em;
   background-repeat: no-repeat;
 }
+header#touch{
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 1em;
+  background-repeat: no-repeat;
+}
 
 @keyframes breath {
   0%   { background-size: 100% auto; }
@@ -114,12 +120,19 @@ section#home-header div.container{
 .usual-section-desktop{
     padding: 25em 0;
 }
-
+.social-link-footer-touch{
+  margin-right: 3%;
+}
 footer#desktop{
   padding: 20rem 0 5rem 0;
   position: absolute;
   width: 100%;
   z-index: -5;
+  background-color: #393185;
+}
+footer#touch{
+  padding: 5% 0;
+  width: 100%;
   background-color: #393185;
 }
 div.section-title{

@@ -14,7 +14,7 @@
     <script src="<?php echo site_url("assets/js/jquery.min.js"); ?>"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <header id="desktop" class="d-none">
+    <header id="desktop" class="d-none d-lg-block d-xl-block">
         <div class="container-fluid" id="desktop-navbar" >
             <div class="row">
                 <div class="col-lg-3">
@@ -61,8 +61,19 @@
         </div>
        
     </header>
-    <header id="touch">
-        <div class="container-fluid">
-            touch header
+    <header id="touch" class="d-sm-block d-md-block d-lg-none">
+        <div class="container-fluid" id="desktop-navbar" >
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                       
+                </div>
+                <div class="col-md-6 col-sm-6 text-center">
+                    <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/logo.svg"); ?>" style="width: 25%; margin-bottom: 5%; margin-top: 5%;"></a>
+                    
+                </div>
+                <div class="col-md-3 col-sm-3">
+                   
+                </div>
+            </div>
         </div>
     </header>
