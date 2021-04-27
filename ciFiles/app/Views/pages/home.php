@@ -381,20 +381,51 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
-                                <img class="w-100" src="<?php echo site_url("assets/images/maploc.png"); ?>"  style="margin-bottom: 5%;" data-aos-duration="1000" data-aos="fade-right">
+                                <img class="w-100" src="<?php echo site_url("assets/images/maploc.png"); ?>"  style="margin-bottom: 5%;"  >
                             </div>
                             <div class="col-md-12 col-sm-12">
-                                <img class="w-100" data-aos-duration="1000" data-aos="fade-left" src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">
+                                <img class="w-100"   src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">
                             </div>                            
                         </div>
                     </div>
 
-                    <div id="address" data-aos-duration="1000" data-aos="fade-left" class="text-center" style="margin-bottom: 4em;">
+                    <div id="address" class="text-center" style="margin-bottom: 4em;">
                         <h4 style="color: #393185;">Head Office: </h4>
                         <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-us-touch" data-aos="zoom-in">
+        <div class="container text-left" > 
+            <h1 class="section-title-touch">About Us</h1>
+
+            <div class="row" style="margin: 3% 0;">
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                    
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 text-justify">
+                    <div id="about-text">
+                        <p>We at precious group actively seek growth by combining dual ethos of integrity and aesthetics in building better tomorrow.
+                        Home is the biggest investment of your lifetime; we understand; and hence we strive to contribute our best in fulfilling your dreams. We are committed to always meeting our possession times with your satisfaction in mind, and we will always do everything possible to ensure that your home is ready on or before the promised delivery time.
+                        <p>
+                        Our mission is to provide prompt and hassle free services for a complete customer satisfaction for which we always carry a value for money approach.</p>
+                        </p><p>
+                        To achieve our goals and fulfill your demands, we have skilled workforce under the direct supervision of a highly progressive management. Our Experts are always happy to help you at various stages in selection of locations per your need.
+                        
+                        Our commitment to quality & innovation is earning us the enduring trust of our customers and making us the renowned brand. </p>
+                        </p>
+                        <p>We take the pleasure to have 1213+ extended families onboard through our journey within 5,000,00 sq.ft of developed land. 
+                        We pledge to continue this mission of world-class development and to enrich living styles across all spectrum of society.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <img src="<?php echo site_url("assets/images/icon.svg"); ?>" class="w-100" style="margin-top: 5%;">
                 </div>
             </div>
         </div>

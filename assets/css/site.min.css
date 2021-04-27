@@ -204,11 +204,23 @@ color: #fff !important;
     left: 5%;
     border: 5px solid #008DD2;
 }
+h1.section-title-touch{
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  color: #393185;
+  display: block;
+  font-weight: bold;
+}
 section#about-us-desktop{
-    position: absolute;
-    width: 100%;
-    top: 105em;
-  
+  position: absolute;
+  width: 100%;
+  top: 105em;
+}
+section#about-us-touch{
+  position: absolute;
+  width: 100%;
+  top: 90em;
 }
 .outer {
     margin: 50px;
