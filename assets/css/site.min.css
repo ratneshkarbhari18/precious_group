@@ -102,8 +102,17 @@ ul#qa-list li{
   padding-right: 5%;
   border-bottom: 1px solid #393185;
 }
-
-
+section#home-header-touch{
+  background-image: url(../images/bgs/homeimages.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: -5;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  animation: breath 25s linear infinite;
+  background-repeat: no-repeat;
+}
 section#home-header{
   background-image: url(../images/bgs/homeimages.jpg);
   background-position: top;
@@ -145,6 +154,14 @@ section#map-section-desktop{
     width: 100%;
     top: 58em;
     background-position: center;
+}
+section#map-section-touch{
+  background-size: cover;
+  padding: 7% 0 10% 0;
+  position: absolute;
+  width: 100%;
+  top: 25em;
+  background-position: center;
 }
 section#customers-speak-desktop {
   position: absolute;

@@ -366,5 +366,45 @@
 </main>
 <main class="page-content d-sm-block d-md-block d-lg-none" id="home-touch">
     
-    
+    <section id="home-header-touch" style="padding: 10em 0;">
+        <div class="container text-center">
+            <h1 id="building-better-tommorow-titlex" style="color: white; font-size: 50px;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
+        </div>
+    </section>
+    <section id="map-section-touch">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                    
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <img class="w-100" src="<?php echo site_url("assets/images/maploc.png"); ?>"  style="margin-bottom: 5%;" data-aos-duration="1000" data-aos="fade-right">
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <img class="w-100" data-aos-duration="1000" data-aos="fade-left" src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <div id="address" data-aos-duration="1000" data-aos="fade-left" class="text-center" style="margin-bottom: 4em;">
+                        <h4 style="color: #393185;">Head Office: </h4>
+                        <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        footer#touch{
+            top: 303em;
+            display: none;
+        }
+    </style>
 </main>
