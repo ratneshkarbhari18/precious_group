@@ -4,6 +4,24 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.tooltip-inner {
+  background-color: #ffffff;
+  color: #000000;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #ffffff !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+  border-right-color: #ffffff !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-right-color: #ffffff !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+  border-right-color: #ffffff !important;
+}
+
+
 
 .hover-style-button
 {
@@ -36,6 +54,19 @@ border: 1px solid white;
 }
 a:hover{
   text-decoration: none;
+}
+section#industry-affairs-touch
+{
+background-size: cover;
+position: absolute;
+width: 100%;
+top: 261em;
+background-position: top;
+padding: 9em 0;
+}
+
+.touch-slide{
+  width: 96% !important;
 }
 .text-justify {
   text-align: justify;
@@ -101,6 +132,14 @@ ul#qa-list li{
   padding-left: 10%;
   padding-right: 5%;
   border-bottom: 1px solid #393185;
+}
+section#gallery-touch{
+  background-position: bottom;
+  background-size: cover;
+  padding: 10em 0 5em 0;
+  z-index: 5;
+  top: 227em;
+  width: 100%;
 }
 section#home-header-touch{
   background-image: url(../images/bgs/homeimages.jpg);
@@ -220,7 +259,17 @@ section#about-us-desktop{
 section#about-us-touch{
   position: absolute;
   width: 100%;
-  top: 90em;
+  top: 91em;
+}
+section#projects-touch{
+  position: absolute;
+  width: 100%;
+  top: 165em;
+  padding: 5rem 0;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .outer {
     margin: 50px;
@@ -275,11 +324,23 @@ section#about-us-touch{
     transition: all .6s ease-out;
     display: block;
   }
-  
+  section#customers-speak-touch{
+    
+    position: absolute;
+    width: 100%;
+    top: 196em;
+  }
   .project-grid-box{
     border: 3px solid #008DD2;
     border-radius: 10px;
       width: 300px;
+      height: 300px;
+    z-index: 50;
+  }
+  .project-grid-box-touch{
+    border: 3px solid #008DD2;
+    border-radius: 10px;
+      width: 90%  !important;
       height: 300px;
     z-index: 50;
   }
@@ -306,14 +367,14 @@ section#about-us-touch{
 
 section#projects-desktop
 {
-padding: 5% 0 12% 0;
-position: absolute;
-width: 100%;
-top: 155em;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  padding: 5% 0 12% 0;
+  position: absolute;
+  width: 100%;
+  top: 155em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section#gallery-desktop
@@ -417,6 +478,13 @@ div#emi-calculator-box{
   background-position: center;    
   background-size: 300%;
   border-radius: 10px;
+}
+.testimonial-touch{
+  background-image: url("../images/bgs/testimonial1.png");
+  background-position: center;    
+  background-size: 9000%;
+  border-radius: 10px;
+  padding: 2rem;
 }
 h5.variable{
   color: #393185;
