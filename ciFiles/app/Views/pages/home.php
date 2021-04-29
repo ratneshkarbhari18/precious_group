@@ -399,7 +399,7 @@
             </div>
         </div>
     </section>
-    <section id="about-us-touch" data-aos="zoom-in">
+    <section id="about-us-touch">
         <div class="container text-left" > 
             <h1 class="section-title-touch">About Us</h1>
 
@@ -440,11 +440,11 @@
             </div>
         </div>
     </section>
-    <section id="projects-touch" data-aos="zoom-in" class="text-center">
+    <section id="projects-touch" class="text-center">
         <div class="container text-center">
             <div class="swiper-container touch-slider">
                 <div class="swiper-wrapper">
-                    <div class="project-grid-box-touch swiper-slide" data-aos-duration="1000" data-aos="fade-right" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box-touch swiper-slide" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-1" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
@@ -453,7 +453,7 @@
                         VIEW PROPERTIES
                         </a>
                     </div>
-                    <div class="project-grid-box-touch swiper-slide" data-aos-duration="1000" data-aos="fade-right" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box-touch swiper-slide" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-1" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
@@ -462,7 +462,7 @@
                         VIEW PROPERTIES
                         </a>
                     </div>
-                    <div class="project-grid-box-touch swiper-slide" data-aos-duration="1000" data-aos="fade-right" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box-touch swiper-slide"  pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-1" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
@@ -541,7 +541,7 @@
             </div> 
         </div>
     </section>
-    <section id="industry-affairs-touch" data-aos="zoom-in">
+    <section id="industry-affairs-touch">
         <div class="container"> 
             <div class="title-button-outer">
                 <div class="title-button">

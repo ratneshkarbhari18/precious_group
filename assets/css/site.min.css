@@ -55,6 +55,9 @@ border: 1px solid white;
 a:hover{
   text-decoration: none;
 }
+*{
+  max-width: 100%;
+}
 section#industry-affairs-touch
 {
 background-size: cover;
@@ -64,10 +67,10 @@ top: 261em;
 background-position: top;
 padding: 9em 0;
 }
-
+/* 
 .touch-slide{
   width: 96% !important;
-}
+} */
 .text-justify {
   text-align: justify;
   text-justify: inter-word;
