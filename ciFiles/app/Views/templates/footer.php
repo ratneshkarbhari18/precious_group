@@ -120,7 +120,7 @@
             </div>
         </div>
     </footer>
-    <div id="quick-actions-box">
+    <div id="quick-actions-box" class="d-none d-lg-block d-xl-block">
         <ul id="qa-list">
             <li class="qa-box-list-item"><a href="#">
                 <img data-toggle="tooltip"  data-placement="left" title="Call" src="<?php echo site_url("assets/images/call.gif"); ?>" class="bouncing-icon" alt="" srcset="">
