@@ -33,7 +33,7 @@
                     <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url("assets/images/logo.svg"); ?>" style="width: 25%; margin-bottom: 5%; margin-top: 5%;"></a>
                     <div class="top-menu-items-container">
                         <a href="<?php echo site_url(); ?>" class="top-nav-curved-link">HOME</a> 
-                        <a href="<?php echo site_url("#about-us"); ?>" class="top-nav-curved-link">ABOUT US</a> 
+                        <a href="<?php echo site_url("about"); ?>" class="top-nav-curved-link">ABOUT US</a> 
                         <a href="<?php echo site_url("all-projects"); ?>" class="top-nav-curved-link">PROJECTS</a>
                         <a href="<?php echo site_url("gallery"); ?>" class="top-nav-curved-link">GALLERY</a> 
                         <a href="<?php echo site_url("investor-corner"); ?>" class="top-nav-curved-link">INVESTOR CORNER</a> 

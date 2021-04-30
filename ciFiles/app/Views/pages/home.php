@@ -105,7 +105,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                    <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-right" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-right" pid="1" style="background-image: url('<?php echo site_url("assets/images/home_p1.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-1" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Harmony</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                    <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-up" pid="2" style="background-image: url('<?php echo site_url("assets/images/projects_02.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box" data-aos-duration="1000" data-aos="fade-up" pid="2" style="background-image: url('<?php echo site_url("assets/images/home_p2.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-2" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Emerald</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                    <div class="project-grid-box" pid="3" data-aos-duration="1000" data-aos="fade-left" style="background-image: url('<?php echo site_url("assets/images/projects_03.jpg") ?>'); background-size: cover;">
+                    <div class="project-grid-box" pid="3" data-aos-duration="1000" data-aos="fade-left" style="background-image: url('<?php echo site_url("assets/images/home_p3.jpg") ?>'); background-size: cover;">
                         <div id="p-meta-3" class="project-grid-meta text-center">
                             <h4 class="project-grid-title">Precious Heritage</h4>
                             <h6 class="project-grid-title">1 BHK</h6>
@@ -239,28 +239,28 @@
             <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" id="gallery-slider">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0px 5%; transition-duration: 300ms; transform: translate3d(-1480px, 0px, 0px);" id="swiper-wrapper-facb6b4b1001fee105" aria-live="off"><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="1 / 9">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_01.jpg"); ?>">
+                        <img class="w-100" src="<?php echo site_url("assets/images/IndustryAffair1.jpg"); ?>">
                     </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-active" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="1" role="group" aria-label="2 / 9">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_02.jpg"); ?>">
+                        <img class="w-100" src="<?php echo site_url("assets/images/IndustryAffair2.jpg"); ?>">
                     </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-next" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="2" role="group" aria-label="3 / 9">
-                        <img class="w-100" src="<?php echo site_url("assets/images/township_03.jpg");  ?>">
+                        <img class="w-100" src="<?php echo site_url("assets/images/IndustryAffair3.jpg");  ?>">
                     </div>
                     <!-- Slides -->
                     <div class="swiper-slide gallery-slide container-fluid swiper-slide-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="4 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_01.jpg">
+                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/IndustryAffair1.jpg">
                     </div>
                     <div class="swiper-slide gallery-slide container-fluid swiper-slide-active" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="1" role="group" aria-label="5 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_02.jpg">
+                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/IndustryAffair2.jpg">
                     </div>
                     <div class="swiper-slide gallery-slide container-fluid swiper-slide-next" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="2" role="group" aria-label="6 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_03.jpg">
+                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/IndustryAffair3.jpg">
                     </div>
                 <div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-prev" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="0" role="group" aria-label="7 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_01.jpg">
+                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/IndustryAffair1.jpg">
                     </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-active" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="1" role="group" aria-label="8 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_02.jpg">
+                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/IndustryAffair2.jpg">
                     </div><div class="swiper-slide gallery-slide container-fluid swiper-slide-duplicate swiper-slide-duplicate-next" style="border: 1px solid darkgray; width: 370px;" data-swiper-slide-index="2" role="group" aria-label="9 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_03.jpg">
+                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/IndustryAffair3.jpg">
                     </div></div>
                 <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
@@ -302,28 +302,37 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
                     <!-- Slides -->
-                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_01.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
-                        <a href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-5-stamp-duty-for-property-registrations-restored-in-city/articleshow/81789131.cms#:~:text=The%20slashing%20of%20stamp%20duty,come%20into%20effect%20from%20Thursday.">
-                            <div class="township-meta">
-                                <h4 class="text-light">TOWNSHIP</h4>
-                                <p>Ulve, Navi Mumbai</p>
-                                <p>2BHK, 1BHK</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_02.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair1.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <a href="https://realty.economictimes.indiatimes.com/news/residential/navi-mumbai-residential-launches-witness-5-increase-in-flat-sizes-in-h2-2020-report/81479066">
                             <div class="township-meta">
-                                <h4 class="text-light">TOWNSHIP</h4>
+                                <h4 class="text-dark" style="font-weight: bold;">TOWNSHIP</h4>
                                 <p>Ulve, Navi Mumbai</p>
                                 <p>2BHK, 1BHK</p>
                             </div>
                         </a>
                     </div>
-                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_03.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair2.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                        <a href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-5-stamp-duty-for-property-registrations-restored-in-city/articleshow/81789131.cms#:~:text=The%20slashing%20of%20stamp%20duty,come%20into%20effect%20from%20Thursday">
+                            <div class="township-meta">
+                                <h4 class="text-dark" style="font-weight: bold;">TOWNSHIP</h4>
+                                <p>Ulve, Navi Mumbai</p>
+                                <p>2BHK, 1BHK</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair3.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
                         <a href="https://realestate4investing.com/articles/real-estate-investments/10-advantages-disadvantages-real-estate-investments">
                             <div class="township-meta">
-                                <h4 class="text-light">TOWNSHIP</h4>
+                                <h4 class="text-dark" style="font-weight: bold;">TOWNSHIP</h4>
+                                <p>Ulve, Navi Mumbai</p>
+                                <p>2BHK, 1BHK</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide ia-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/IndustryAffair4.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
+                        <a href="https://www.freepressjournal.in/mumbai/mumbai-housing-sales-fall-as-stamp-duty-restored">
+                            <div class="township-meta">
+                                <h4 class="text-dark" style="font-weight: bold;">TOWNSHIP</h4>
                                 <p>Ulve, Navi Mumbai</p>
                                 <p>2BHK, 1BHK</p>
                             </div>
@@ -341,7 +350,8 @@
                     color: white;
                 }
                 .township-meta p{
-                    color: white;
+                    color: black;
+                    font-weight: bold;
                 }
             </style>
             <script>
@@ -363,259 +373,4 @@
             top: 303em;
         }
     </style>
-</main>
-<main class="page-content d-sm-block d-md-block d-lg-none" id="home-touch">
-    
-    <section id="home-header-touch" style="padding: 10em 0;">
-        <div class="container text-center">
-            <h1 id="building-better-tommorow-titlex" style="color: white; font-size: 50px;">BUILDING BETTER <br> <span style="font-weight: bold;">TOMMOROW.</span></h1>
-        </div>
-    </section>
-    <section id="map-section-touch">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-2 col-md-12 col-sm-12">
-                    
-                </div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <img class="w-100" src="<?php echo site_url("assets/images/maploc.png"); ?>"  style="margin-bottom: 5%;"  >
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <img class="w-100"   src="<?php echo site_url("assets/images/map_nfacts_text.jpg"); ?>">
-                            </div>                            
-                        </div>
-                    </div>
-
-                    <div id="address" class="text-center" style="margin-bottom: 4em;">
-                        <h4 style="color: #393185;">Head Office: </h4>
-                        <p>Shop No. 1 & 2, Sai Aura Building,  Plot Number 33, <br>Sector 17, Near Sadguru Sweets, Ulwe, Navi Mumbai, Maharashtra 410206 </p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-12 col-sm-12">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about-us-touch">
-        <div class="container text-left" > 
-            <h1 class="section-title-touch">About Us</h1>
-
-            <div class="row" style="margin: 3% 0;">
-                <div class="col-lg-2 col-md-12 col-sm-12">
-                    
-                </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 text-justify">
-                    <div id="about-text">
-                        <p>We at precious group actively seek growth by combining dual ethos of integrity and aesthetics in building better tomorrow.
-                        Home is the biggest investment of your lifetime; we understand; and hence we strive to contribute our best in fulfilling your dreams. We are committed to always meeting our possession times with your satisfaction in mind, and we will always do everything possible to ensure that your home is ready on or before the promised delivery time.
-                        <p>
-                        Our mission is to provide prompt and hassle free services for a complete customer satisfaction for which we always carry a value for money approach.</p>
-                        </p><p>
-                        To achieve our goals and fulfill your demands, we have skilled workforce under the direct supervision of a highly progressive management. Our Experts are always happy to help you at various stages in selection of locations per your need.
-                        
-                        Our commitment to quality & innovation is earning us the enduring trust of our customers and making us the renowned brand. </p>
-                        </p>
-                        <p>We take the pleasure to have 1213+ extended families onboard through our journey within 5,000,00 sq.ft of developed land. 
-                        We pledge to continue this mission of world-class development and to enrich living styles across all spectrum of society.</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-12 col-sm-12">
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="swiper-container touch-slider">
-                        <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
-                        <!-- Slides -->
-                            <?php for ($i=1; $i <=4; $i++): ?>
-                            <div class="swiper-slide container-fluid touch-slide">
-                               <img src="<?php echo site_url("assets/images/feature".$i.".png"); ?>" class="w-100">
-                            </div>
-                            <?php endfor; ?>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="projects-touch" class="text-center">
-        <div class="container text-center">
-            <div class="swiper-container touch-slider">
-                <div class="swiper-wrapper">
-                    <div class="project-grid-box-touch swiper-slide" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
-                        <div id="p-meta-1" class="project-grid-meta text-center">
-                            <h4 class="project-grid-title">Precious Harmony</h4>
-                            <h6 class="project-grid-title">1 BHK</h6>
-                        </div>
-                        <a href="#" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 25%; padding: 1%;">
-                        VIEW PROPERTIES
-                        </a>
-                    </div>
-                    <div class="project-grid-box-touch swiper-slide" pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
-                        <div id="p-meta-1" class="project-grid-meta text-center">
-                            <h4 class="project-grid-title">Precious Harmony</h4>
-                            <h6 class="project-grid-title">1 BHK</h6>
-                        </div>
-                        <a href="#" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 25%; padding: 1%;">
-                        VIEW PROPERTIES
-                        </a>
-                    </div>
-                    <div class="project-grid-box-touch swiper-slide"  pid="1" style="background-image: url('<?php echo site_url("assets/images/projects_01.jpg") ?>'); background-size: cover;">
-                        <div id="p-meta-1" class="project-grid-meta text-center">
-                            <h4 class="project-grid-title">Precious Harmony</h4>
-                            <h6 class="project-grid-title">1 BHK</h6>
-                        </div>
-                        <a href="#" id="vp-button-1" class="btn view-project-button" style="background-color: #393185; color: white; border: 3px solid white; display: none; position: absolute; left; top: 45%; left: 25%; padding: 1%;">
-                        VIEW PROPERTIES
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        <script>
-                $(".project-grid-box").hover(function () {
-                    let pid = $(this).attr("pid");
-                    $("a#vp-button-"+pid).css("display","block");
-                    $("div#p-meta-"+pid).css("display","none");
-                    }, function () {
-                        let pid = $(this).attr("pid");
-                        $("a#vp-button-"+pid).css("display","none");
-                        $("div#p-meta-"+pid).css("display","block");
-                    }
-                );
-                $(".project-grid-box").on('hover', function () {
-                    let pid = $(this).attr("pid");
-                    console.log(pid);
-                    $("a#vp-button-"+pid).css("display","block");
-                    $("div#p-meta-"+pid).css("display","none");
-                });
-            </script>
-    </section>
-    <section id="customers-speak-touch">
-        <div class="container text-center">
-            <h1 class="section-title-touch">Customer Speak</h1>
-            <div class="swiper-container touch-slider" style="margin: 5% 0;">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide touch-slide testimonial-touch container-fluid">
-                        <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
-                        <h4 class="testimonial-title">Mr. Sanghvi</h4>
-                        <p style="margin-bottom: 3%;">The most important but scarce quality in people is TRUST. Precious Group is just that – one of pure, mutual TRUST, an example of belief in people being reciprocated in the real spirit. My experience with them shows that Precious Group has grown exponentially and the basis of this growth has to be fair practices and trust.</p>
-                        <p><span style="font-weight: bold; color:#393185;">Precious Harmony </span></p>
-                    </div>
-                    <div class="swiper-slide touch-slide testimonial-touch container-fluid">
-                        <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
-                        <h4 class="testimonial-title">Dilip Dhawan</h4>
-                        <p style="margin-bottom: 3%;">Precious Group didn’t just give us a flat, but an extended family in the form of neighbours and good community living. We as a family are more than happy to have come across Precious Group as they correctly identified our requirement and suggested a location which in our budget as well as fulfilled with amenities.</p>
-                        <p><span style="font-weight: bold; color:#393185;">Precious Heritage</span></p>
-                    </div>
-                    <div class="swiper-slide touch-slide testimonial-touch container-fluid">
-                        <!-- <img src="<?php echo site_url("assets/images/img-3.jpg"); ?>" class="testimonial-image"> -->
-                        <h4 class="testimonial-title">Sundaram Phadke</h4>
-                        <p style="margin-bottom: 3%;">Initially I had just come along with my friend for a site visit, my plan was to wait for 2 years and then invest, but after the site visit, frequent meetings with the Precious Groups, and their after service which I witnessed through my friends helped me to be sure about Precious Group. Further without any delay, within a year I booked a flat with Precious Group. And I and my Family are glad to have made this decision. </p>
-                        <p><span style="font-weight: bold; color:#393185;">Precious Emerald</span> </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="gallery-touch">
-        <div class="container"> 
-            <h1 class="section-title-touch">GALLERY</h1>
-            <div class="swiper-container touch-slider" id="gallery-slider">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper" style="padding: 8% 0px 5%; transition-duration: 300ms; transform: translate3d(-1480px, 0px, 0px);" id="swiper-wrapper-facb6b4b1001fee105" aria-live="off">
-                    <!-- Slides -->
-                    <div class="swiper-slide touch-slide container-fluid swiper-slide-prev" style="border: 1px solid darkgray; padding: 0;" data-swiper-slide-index="0" role="group" aria-label="4 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_01.jpg">
-                    </div>
-                    <div class="swiper-slide touch-slide container-fluid swiper-slide-active" style="border: 1px solid darkgray; padding: 0;" data-swiper-slide-index="1" role="group" aria-label="5 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_02.jpg">
-                    </div>
-                    <div class="swiper-slide touch-slide container-fluid swiper-slide-next" style="border: 1px solid darkgray; padding: 0;" data-swiper-slide-index="2" role="group" aria-label="6 / 9">
-                        <img class="w-100" src="<?php echo site_url(); ?>assets/images/township_03.jpg">
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </section>
-    <section id="industry-affairs-touch">
-        <div class="container"> 
-            <div class="title-button-outer">
-                <div class="title-button">
-                    <div class="section-title text-light">INDUSTRY AFFAIRS</div>
-                </div>
-            </div>
-            <div class="swiper-container touch-slider" id="ia-slider">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper" style="padding: 8% 0 5% 0;">
-                    <!-- Slides -->
-                    <div class="swiper-slide touch-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_01.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
-                        <a href="https://timesofindia.indiatimes.com/city/mumbai/maharashtra-5-stamp-duty-for-property-registrations-restored-in-city/articleshow/81789131.cms#:~:text=The%20slashing%20of%20stamp%20duty,come%20into%20effect%20from%20Thursday.">
-                            <div class="township-meta">
-                                <h4 class="text-light">TOWNSHIP</h4>
-                                <p>Ulve, Navi Mumbai</p>
-                                <p>2BHK, 1BHK</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide touch-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_02.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
-                        <a href="https://realty.economictimes.indiatimes.com/news/residential/navi-mumbai-residential-launches-witness-5-increase-in-flat-sizes-in-h2-2020-report/81479066">
-                            <div class="township-meta">
-                                <h4 class="text-light">TOWNSHIP</h4>
-                                <p>Ulve, Navi Mumbai</p>
-                                <p>2BHK, 1BHK</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide touch-slide container-fluid text-center" style="border: 1px solid darkgray; background-image: url('<?php echo site_url("assets/images/township_03.jpg"); ?>'); background-size: cover; height: 363.33px; margin: 0 auto;">
-                        <a href="https://realestate4investing.com/articles/real-estate-investments/10-advantages-disadvantages-real-estate-investments">
-                            <div class="township-meta">
-                                <h4 class="text-light">TOWNSHIP</h4>
-                                <p>Ulve, Navi Mumbai</p>
-                                <p>2BHK, 1BHK</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <style>
-                .township-meta{
-                    position: absolute;
-                    top: 30%;
-                    left: 28%;
-                }
-                .township-meta h4{
-                    color: white;
-                }
-                .township-meta p{
-                    color: white;
-                }
-            </style>
-            
-        </div>
-    </section>
-
-    <style>
-        footer#touch{
-            position: absolute;
-    top: 303em;
-    padding: 5em 0;
-    z-index: -5;
-        }
-    </style>
-    <script>
-        const swipertouch = new Swiper('.touch-slider', {
-            // Optional parameters
-            spaceBetween: 10,
-            slidesPerView: 1,
-            direction: 'horizontal',
-            loop: true,
-            autoplay: {
-                delay: 3000,
-            },
-        });
-    </script>
 </main>

@@ -1,4 +1,4 @@
-<div class="container" id="desktop-section-nav" style="background-color: transparent; "> 
+<div class="container d-none" id="desktop-section-nav" style="background-color: transparent; "> 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #393185; padding: 2% 0;">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-auto">
@@ -23,7 +23,7 @@
     </nav>
 </div>
 <main class="page-content" id="all-projects">
-    <section id="completed" class="usual-projects-page-section">
+    <section id="completed" class="usual-projects-page-section d-none">
         <div class="container">
             <div class="title-button-outer">
                 <div class="title-button">
@@ -41,8 +41,10 @@
                             <div style="border: 3px solid #008DD2; border-radius: 10px;">
                                 <a href="<?php echo site_url("project/1234"); ?>">
                                     <div class="owl-carousel owl-theme project-images-carousel">
-                                        <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
-                                        <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
+                                        <!-- <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
+                                        <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100"> -->
+                                        <div>1</div>
+                                        <div>2</div>
                                     </div>
                                     <div class="meta-container container-fluid">
                                         <h2 class="project-title">1 BHK | Precious Harmony</h2>
@@ -79,8 +81,8 @@
                         <div style="border: 3px solid #008DD2; border-radius: 10px;">
                             <a href="<?php echo site_url("project/1234"); ?>">
                                 <div class="owl-carousel owl-theme project-images-carousel">
-                                    <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
-                                    <img src="<?php echo site_url("assets/images/horizontal_property.jpeg"); ?>" class="project-image w-100">
+                                    <img src="<?php echo site_url("assets/images/home_p1.jpg"); ?>" class="w-100">
+                                    <img src="<?php echo site_url("assets/images/home_p1.jpg"); ?>" class="w-100">
                                 </div>
                                 <div class="meta-container container-fluid">
                                     <h2 class="project-title">1 BHK | Precious Harmony</h2>
@@ -96,7 +98,7 @@
         </div>
         
     </section>
-    <section id="upcoming" class="usual-projects-page-section">
+    <section id="upcoming" class="usual-projects-page-section d-none">
         <div class="container">
             <div class="title-button-outer">
                 <div class="title-button">
@@ -239,31 +241,6 @@
     .form-group{margin-bottom: 0;}
     
 </style>
-<script>
-    const swiper = new Swiper('.swiper-containerx', {
-         // Optional parameters
-        spaceBetween: 10,
-        slidesPerView: 3,
-        direction: 'horizontal',
-        loop: true,
-        autoplay: {
-            delay: 3000,
-        },  
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-        },
-    });
-    const swiperx = new Swiper('.project-img-container', {
-        spaceBetween: 10,
-        slidesPerView: 3,
-        direction: 'horizontal',
-        loop: true,
-        autoplay: {
-            delay: 3000,
-        },  
-    });
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
 <script>
 $(".project-images-carousel").owlCarousel({

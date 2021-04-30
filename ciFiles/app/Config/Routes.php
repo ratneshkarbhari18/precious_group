@@ -36,6 +36,7 @@ $routes->get('/', 'PageLoader::home');
 $routes->get("all-projects","PageLoader::all_projects");
 $routes->get("project/(:any)","PageLoader::project/$1");
 $routes->get("investor-corner","PageLoader::investor_corner");
+$routes->get("about","PageLoader::about");
 
 /*
  * --------------------------------------------------------------------
